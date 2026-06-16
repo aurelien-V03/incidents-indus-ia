@@ -1,0 +1,901 @@
+incident_id,date,time,operator_name,machine_id,severity,operator_badge,comment,shift,type_surchauffe,type_baisse_pression,type_vibration,type_bruit_mecanique,type_surconsommation,type_blocage_mecanique,type_alarme_capteur,type_arret_urgence,type_defaut_qualite
+INC-000001,2025-06-01,05:00,e365a3dff667,MACH-06,1,5cb39ae52ff1,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000002,2025-06-01,21:00,6e43a61e417f,MACH-15,1,c51cf705adbc,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000003,2025-06-01,22:00,7711c93c3fd6,MACH-12,2,634e53074598,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000004,2025-06-04,05:00,42e16ecc29af,MACH-10,1,8ef72476dfe6,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000005,2025-06-04,22:00,bea4c5bc43e0,MACH-01,2,8a959408a1b8,,nuit,1,0,0,0,0,0,0,0,0
+INC-000006,2025-06-05,18:00,915b0345f1ce,MACH-12,1,3785dad0a54f,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000007,2025-06-06,01:00,9e76953e392d,MACH-14,1,8561a3041f06,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000008,2025-06-07,00:00,94b80da5178a,MACH-13,2,4ce7f041aab5,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000009,2025-06-08,09:00,0599897bba5b,MACH-06,3,a5cc379ab4bc,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000010,2025-06-08,12:00,0307a98293c5,MACH-06,2,6c54faa01c20,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000011,2025-06-09,02:00,86f21333b748,MACH-04,1,518de7de1405,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000012,2025-06-09,03:00,62fc99c3b573,MACH-10,3,12001a26560d,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000013,2025-06-09,22:00,7e7f71535fd8,MACH-02,2,61e98c339f4d,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000014,2025-06-10,01:00,cd9771966653,MACH-03,2,6c973858ce43,,nuit,0,0,0,0,0,0,1,0,0
+INC-000015,2025-06-10,09:00,989ef9de53bd,MACH-06,1,4f51045a00ff,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000016,2025-06-10,10:00,586af27bbeec,MACH-10,1,7ec60e10b84c,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000017,2025-06-10,11:00,bc44426d1ce4,MACH-12,1,5c35125d2326,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000018,2025-06-10,13:00,6ec37e66d528,MACH-14,1,b75782d5e6af,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000019,2025-06-10,17:00,61f852b3334d,MACH-14,1,3d6027fb4651,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000020,2025-06-11,14:00,c0387c5591f3,MACH-01,2,02bb29d0ad86,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000021,2025-06-11,19:00,33d50b75509d,MACH-07,1,be6475d8001c,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000022,2025-06-12,04:00,f7533af70552,MACH-15,3,dc20acecb06e,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000023,2025-06-12,10:00,8f1e99a0d9ad,MACH-07,3,d7fc6cc5fa1b,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000024,2025-06-13,05:00,5dfaa4636688,MACH-07,1,131ae0e23979,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000025,2025-06-13,18:00,fbe03bf090fc,MACH-01,1,d8fcabc6041b,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000026,2025-06-14,04:00,912fe87c2924,MACH-06,1,f792e19494f0,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000027,2025-06-14,09:00,109e56d68760,MACH-13,1,98e867ff6865,,matin,0,1,0,0,0,0,0,0,0
+INC-000028,2025-06-14,11:00,598f5bfb774b,MACH-01,1,9eb5e62a3742,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000029,2025-06-14,20:00,118dc46160cc,MACH-13,2,cecb3c0c9a05,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000030,2025-06-14,21:00,6c9ee83fceb4,MACH-04,3,9cc3d7e78bcf,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000031,2025-06-14,21:00,8faff805e6cd,MACH-14,2,be093f5b6fcc,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000032,2025-06-15,05:00,d7fab5302de5,MACH-02,1,5f48ba1dbac6,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000033,2025-06-15,13:00,44b5682175d8,MACH-12,1,53df68d272da,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000034,2025-06-15,14:00,9ad4a1941d0e,MACH-15,2,35b2857c16d1,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000035,2025-06-15,19:00,9d96031e805e,MACH-04,2,3ea55d13932a,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000036,2025-06-15,20:00,bd30e4381af3,MACH-06,1,818dffb135f2,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000037,2025-06-16,01:00,07afbc1f51db,MACH-05,4,966e85b4a16e,alarme capteur + arrêt ligne,nuit,0,0,0,0,0,0,1,1,0
+INC-000038,2025-06-16,17:00,8cc0ee3bce78,MACH-08,1,a596d3db4ed7,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000039,2025-06-16,20:00,40141769f91f,MACH-04,2,14ece9f4379f,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000040,2025-06-16,21:00,8a13ee1597c1,MACH-05,1,9b3b647de9ea,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000041,2025-06-16,21:00,9bc6a3939bda,MACH-05,1,17e203f62f23,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000042,2025-06-17,00:00,4b51bbde149a,MACH-01,4,0886150367ea,chauffe anormale + arrêt ligne,nuit,1,0,0,0,0,0,0,1,0
+INC-000043,2025-06-17,14:00,6c6c30e53fe3,MACH-10,1,6b3a6a36e6ef,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000044,2025-06-19,01:00,e9cd8c590755,MACH-07,2,745766226896,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000045,2025-06-19,13:00,781d25e84d52,MACH-15,1,9d5e5d361375,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000046,2025-06-20,06:00,f3ba6a2211ea,MACH-15,1,06f59b641ec9,,matin,0,0,0,0,0,0,0,0,1
+INC-000047,2025-06-20,23:00,37f5cd102c49,MACH-12,2,345505e4130f,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000048,2025-06-21,08:00,84a9fc8e52ba,MACH-11,3,beaffd52caaa,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000049,2025-06-21,10:00,9d664fa5f9c3,MACH-12,2,2441589aedbe,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000050,2025-06-21,20:00,13a8381f2631,MACH-05,1,4386e762c138,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000051,2025-06-21,22:00,c6546ca366e8,MACH-02,2,890ecef8db78,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000052,2025-06-22,04:00,ef993c6633e2,MACH-09,2,6aed40b911b6,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000053,2025-06-22,12:00,c415bfb805b0,MACH-05,1,4bf825463344,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000054,2025-06-22,15:00,58cb90c17b32,MACH-15,2,ad3d9baa7a36,,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000055,2025-06-22,19:00,6b5dd2e7f859,MACH-13,2,4bb20859de2c,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000056,2025-06-22,20:00,90b4d16e820e,MACH-08,1,e80a4e468752,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000057,2025-06-23,23:00,2265f7ebe8de,MACH-13,2,8ce844a793ff,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000058,2025-06-24,00:00,0d351f2abced,MACH-06,1,b321d043fe4c,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000059,2025-06-24,09:00,f35d7e5f3456,MACH-06,3,e0807e7f2e90,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000060,2025-06-25,05:00,1e2f64782a3f,MACH-03,3,09225e8dc1b9,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000061,2025-06-25,17:00,a1a8cc59d599,MACH-09,1,396df6b1c1aa,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000062,2025-06-26,00:00,b78dd159c270,MACH-15,2,414d8abc9a89,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000063,2025-06-26,01:00,726fe89b6a78,MACH-06,1,4c8b934e29a0,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000064,2025-06-26,17:00,b30b01d82c66,MACH-02,2,97d71ab3bf4f,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000065,2025-06-27,10:00,445237cad5ab,MACH-03,1,1df16c4f9b4a,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000066,2025-06-27,10:00,15296625576c,MACH-12,1,52e0f59c46e1,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000067,2025-06-27,13:00,631f6046b9ae,MACH-03,2,e2010e78049a,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000068,2025-06-27,14:00,edb53a77e147,MACH-15,4,a02795a6f7fa,alarme capteur + arrêt ligne,apres-midi,0,0,0,0,0,0,1,1,0
+INC-000069,2025-06-29,06:00,dc639bf171dd,MACH-12,1,c93581c6718e,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000070,2025-07-01,07:00,3ba36c56ac29,MACH-09,1,47f2a630eea8,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000071,2025-07-01,16:00,f4b4549b39a8,MACH-05,3,e3da671d3de0,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000072,2025-07-01,18:00,30ce7506590c,MACH-06,2,f1805218681b,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000073,2025-07-01,20:00,680808100838,MACH-08,3,f780b0a2f5d7,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000074,2025-07-02,07:00,6b3e9af4c9e7,MACH-10,1,e5bf262a2b68,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000075,2025-07-02,16:00,e416b9c400c6,MACH-08,2,bd9410f9e6cd,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000076,2025-07-02,21:00,87b0ea44efe2,MACH-04,2,45bf5c02855f,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000077,2025-07-03,06:00,ca5f56b54251,MACH-10,2,e37e1fed91f5,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000078,2025-07-03,15:00,057e9f12795a,MACH-04,1,42338323f7e7,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000079,2025-07-03,21:00,5d9f6119b1e6,MACH-04,1,d2cb43aa26ed,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000080,2025-07-04,06:00,d7cfe036ce94,MACH-13,1,0876e62e173b,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000081,2025-07-04,18:00,941ce91fb886,MACH-09,1,395e12ea29b8,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000082,2025-07-05,01:00,e473b8293c23,MACH-11,1,a9178b5e66bc,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000083,2025-07-05,17:00,32b363a1a345,MACH-07,2,3b5dec35eb2e,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000084,2025-07-05,23:00,a337ecd52e65,MACH-03,1,c046e779eabc,,nuit,0,0,0,0,1,0,0,0,0
+INC-000085,2025-07-06,11:00,97331083ba59,MACH-02,2,3e8c2249421f,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000086,2025-07-06,14:00,ecde9cfe3187,MACH-03,1,7e139bdc9305,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000087,2025-07-06,20:00,af354ca56510,MACH-02,1,6c4f3e78a513,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000088,2025-07-07,12:00,49b4258f59a2,MACH-05,1,399b749178a1,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000089,2025-07-07,15:00,0028280b79d6,MACH-03,1,752c84501b87,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000090,2025-07-08,23:00,60152363c68f,MACH-06,1,8da6a8e169f7,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000091,2025-07-09,07:00,0b544848b09d,MACH-10,2,15e954c03544,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000092,2025-07-09,12:00,b54fa51a5a02,MACH-04,2,7a177e9607e6,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000093,2025-07-09,22:00,a1b4883cf163,MACH-05,1,10fe4655bf46,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000094,2025-07-10,05:00,d5f78688ce97,MACH-03,1,cf01a3599665,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000095,2025-07-10,08:00,ae4415a779bb,MACH-08,1,669d62f91096,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000096,2025-07-10,19:00,bae2e81cb645,MACH-02,1,9cf36410fa5b,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000097,2025-07-10,21:00,12159c69ea76,MACH-12,3,654ca81aa661,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000098,2025-07-11,04:00,e2414470bd5a,MACH-13,1,f95f78817292,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000099,2025-07-11,09:00,68f927e711a0,MACH-10,4,f9edff80a994,chauffe anormale + arrêt ligne,matin,1,0,0,0,0,0,0,1,0
+INC-000100,2025-07-13,14:00,3de7b71e4b94,MACH-05,2,2916f73f2670,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000101,2025-07-13,20:00,a575434a3fee,MACH-04,3,8341187e4b7d,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000102,2025-07-14,03:00,d7399c2029a7,MACH-12,1,e4899c6b12e8,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000103,2025-07-14,09:00,cd1ef1b2c831,MACH-04,1,4ac53a2665e2,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000104,2025-07-15,01:00,f558a7ba80e5,MACH-08,3,98a8e2db477f,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000105,2025-07-15,02:00,0e844c9876bb,MACH-03,3,ec611325d7fd,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000106,2025-07-15,05:00,e2b0cd5dd835,MACH-13,3,3c369da5d429,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000107,2025-07-15,22:00,f81ba6c593c5,MACH-08,2,a29eae29fb82,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000108,2025-07-16,12:00,1550597a5955,MACH-02,1,cce2be95ddb5,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000109,2025-07-17,08:00,8329d0b3c714,MACH-10,3,4e1f4ed55b0e,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000110,2025-07-17,09:00,309198a6a08e,MACH-09,1,4cafdc3c73cb,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000111,2025-07-18,10:00,2acd10dde263,MACH-11,3,9a1354f541da,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000112,2025-07-18,14:00,b88d7450c86c,MACH-05,2,38643b0c7de5,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000113,2025-07-18,16:00,6a62c0af56a3,MACH-09,1,06b1a047d06c,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000114,2025-07-20,00:00,75ceaa1b2751,MACH-05,2,18fccaaee5b2,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000115,2025-07-20,06:00,d6fd9eab97f0,MACH-02,1,dcadd4666a10,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000116,2025-07-20,08:00,9d1c04504aa1,MACH-03,2,785e6f7dfa1d,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000117,2025-07-21,11:00,f4a1e6b08b9f,MACH-01,2,ae52b86413e5,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000118,2025-07-21,12:00,b08bad6e6523,MACH-09,2,75a950eff371,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000119,2025-07-21,13:00,e7f2960f10a9,MACH-13,1,7bdfb082b4e4,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000120,2025-07-22,05:00,8e5b67ee1cb1,MACH-05,1,3b72e3a7b832,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000121,2025-07-22,18:00,99c84ab0d9c0,MACH-05,1,3d46047892a3,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000122,2025-07-22,21:00,b1ac10e742fc,MACH-04,3,98d323fa6f0e,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000123,2025-07-22,22:00,18f90627b357,MACH-06,1,daaf391d0eb8,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000124,2025-07-22,23:00,e1e8f040aadc,MACH-06,1,157529e5638f,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000125,2025-07-22,23:00,e95c01df9729,MACH-07,3,66898839b984,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000126,2025-07-24,04:00,e4ddc97e77e4,MACH-06,2,e8e821108fb2,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000127,2025-07-24,08:00,8ad4c22d5c6c,MACH-03,2,f13c5bb243cc,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000128,2025-07-24,11:00,a2d77cbb710e,MACH-05,1,d2e553be287d,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000129,2025-07-24,12:00,7511b53228d6,MACH-01,1,a9e64e4f4a6a,,matin,0,0,0,0,0,0,1,0,0
+INC-000130,2025-07-24,13:00,fd61e20f594d,MACH-08,2,744932b2dc38,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000131,2025-07-24,20:00,d5ed5ac8b2b2,MACH-10,1,b8471dddf4ba,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000132,2025-07-25,02:00,81b1526beb6b,MACH-13,1,52f5843d8743,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000133,2025-07-25,21:00,393a91051dbd,MACH-02,2,f9ce3993c0a1,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000134,2025-07-27,07:00,9966b4e73bc6,MACH-05,2,01429a2be670,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000135,2025-07-27,12:00,50d10e0888c7,MACH-04,2,ad4d9083bb4d,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000136,2025-07-27,17:00,962a7bbc005e,MACH-15,4,fbc7868ec250,chauffe anormale + arrêt ligne,apres-midi,1,0,0,0,0,0,0,1,0
+INC-000137,2025-07-27,20:00,4b5083473852,MACH-15,1,ed37fb38464e,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000138,2025-07-28,23:00,0f0839f0baaf,MACH-09,4,07ad0db2b84e,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000139,2025-07-29,15:00,8596a1e1d5bc,MACH-05,1,f682d96a533b,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000140,2025-07-30,14:00,819e7485b913,MACH-07,1,3eb0f2760e7f,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000141,2025-07-30,17:00,8a4e6f91dae7,MACH-06,1,f3f53e6fb3e0,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000142,2025-07-31,01:00,a92702ab1cb5,MACH-14,2,2d50b84acd39,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000143,2025-07-31,04:00,7f39fe8a2565,MACH-01,3,9fea3e9f3ca3,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000144,2025-07-31,11:00,593a76fcd0b9,MACH-11,1,8f375cd03aae,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000145,2025-07-31,17:00,17e06d118fcf,MACH-03,3,e4262cbb5479,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000146,2025-07-31,18:00,adb4e900ac24,MACH-06,1,20aefe7614fc,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000147,2025-07-31,20:00,6f13ca6723b4,MACH-04,2,71dd4ca2d9e9,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000148,2025-08-02,02:00,231a4b47fb6e,MACH-01,3,521d7be7ac92,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000149,2025-08-02,09:00,770f50e65de8,MACH-09,2,92954265600f,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000150,2025-08-02,12:00,43be93156f68,MACH-08,3,af2dcc1684b4,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000151,2025-08-02,19:00,4e328a4bb35d,MACH-05,2,f5a7cd179ddb,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000152,2025-08-02,22:00,56a505c7eda3,MACH-02,2,04748f5e129e,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000153,2025-08-03,17:00,b15c45214e02,MACH-09,1,0978cdbd9468,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000154,2025-08-04,00:00,c8038440d534,MACH-07,2,0e2e7c48af23,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000155,2025-08-04,03:00,e3403ce08d78,MACH-05,1,f331f5fbf568,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000156,2025-08-04,07:00,ae1487914d1c,MACH-08,1,0c3f7a23e2b8,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000157,2025-08-04,22:00,e1abe181be95,MACH-13,1,e247fb6c23b0,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000158,2025-08-04,23:00,63393a9bf605,MACH-04,1,a619eb1f584b,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000159,2025-08-05,07:00,6360c64fd43a,MACH-04,1,04a0eeb01172,,matin,0,0,0,0,0,0,0,0,1
+INC-000160,2025-08-05,07:00,71f240351a6e,MACH-12,1,ebe9f9167ce0,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000161,2025-08-05,10:00,7b5835114ab0,MACH-15,2,93aa80b63edc,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000162,2025-08-05,11:00,706b76993eb4,MACH-10,3,26facab9f891,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000163,2025-08-05,19:00,5c29dc074d98,MACH-10,2,f88401842e81,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000164,2025-08-07,04:00,3ddb89752e46,MACH-07,2,a27b63dc51c3,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000165,2025-08-07,18:00,8b7861dd0e19,MACH-10,3,0c4dbb6d2722,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000166,2025-08-08,00:00,08534f2827f1,MACH-13,2,93c3a62e6aa6,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000167,2025-08-08,01:00,84790b39824b,MACH-01,1,4d70f90af103,,nuit,0,0,0,1,0,0,0,0,0
+INC-000168,2025-08-08,02:00,620e9ae912bc,MACH-08,1,e78cd00971b8,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000169,2025-08-08,13:00,8622767f6ba3,MACH-09,2,a38d55963ab2,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000170,2025-08-08,20:00,06990a67f2e7,MACH-10,2,841d29ea9fcf,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000171,2025-08-09,14:00,60ed56e90ad0,MACH-08,1,5681294d75bd,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000172,2025-08-10,12:00,e4ab0fcc3f41,MACH-12,3,c91be675d89b,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000173,2025-08-10,22:00,ec7151e9e537,MACH-14,2,14464031744c,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000174,2025-08-11,22:00,28d33f19bfc4,MACH-08,1,3c951b453aa0,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000175,2025-08-11,23:00,c503157f82df,MACH-03,2,8a0f88902f41,,nuit,0,0,0,1,0,0,0,0,0
+INC-000176,2025-08-13,08:00,676beb2052ab,MACH-15,3,611d34b18072,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000177,2025-08-13,12:00,efb75e73aeae,MACH-02,1,2dce02c839e3,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000178,2025-08-13,12:00,ed0f65a61234,MACH-05,1,71b46e9165f8,,matin,0,1,0,0,0,0,0,0,0
+INC-000179,2025-08-14,13:00,b2e68717e561,MACH-02,1,3a74da830245,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000180,2025-08-15,01:00,79176467d359,MACH-02,2,aed3754a590c,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000181,2025-08-15,13:00,8b21e10d7dfb,MACH-12,1,6797f82bebc3,,matin,0,0,0,0,1,0,0,0,0
+INC-000182,2025-08-15,15:00,4ab4ed6772c1,MACH-07,3,5397a2915705,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000183,2025-08-15,21:00,4d4a5d4d8261,MACH-07,2,d3017fc5995b,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000184,2025-08-16,23:00,150209b450fa,MACH-01,1,c2702ef05045,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000185,2025-08-16,23:00,c44ae4bb42bb,MACH-10,2,86e1a98b6312,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000186,2025-08-17,19:00,ab76b28ae00c,MACH-12,3,6e23f0a83ee4,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000187,2025-08-18,03:00,778bc53174f9,MACH-05,1,717dd4ff3e38,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000188,2025-08-18,03:00,e64356e95b94,MACH-10,1,0189e8402ae0,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000189,2025-08-18,06:00,52b548dbc6fd,MACH-12,2,a6e72cf35b87,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000190,2025-08-19,02:00,f6082905230c,MACH-06,1,5e9d45d7310b,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000191,2025-08-19,06:00,47d1efa51cdf,MACH-06,3,12c05df2075c,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000192,2025-08-20,07:00,31735351ad02,MACH-07,3,e368b1d17a03,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000193,2025-08-20,10:00,752f4cbe7ebd,MACH-14,1,f8c6515512a9,,matin,0,0,0,0,0,0,1,0,0
+INC-000194,2025-08-20,14:00,7112d128b7bf,MACH-14,3,ac96e4e08091,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000195,2025-08-20,20:00,8a8ff9a6ce28,MACH-13,2,249668a8895d,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000196,2025-08-21,00:00,09514f053913,MACH-14,2,7617c2b15d47,,nuit,0,0,1,0,0,0,0,0,0
+INC-000197,2025-08-21,07:00,6c28f1413c77,MACH-06,1,6915064d68e2,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000198,2025-08-21,13:00,e3482014cfbd,MACH-09,1,5a225e44e31b,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000199,2025-08-21,18:00,baf3957ccd88,MACH-08,2,74c1310f95af,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000200,2025-08-21,22:00,c3c316aac60e,MACH-09,4,93ddcf63e263,chauffe anormale + arrêt ligne,nuit,1,0,0,0,0,0,0,1,0
+INC-000201,2025-08-22,02:00,db71f469facf,MACH-03,3,779d9f201513,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000202,2025-08-22,12:00,b4a7371ae605,MACH-08,1,16e16f046577,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000203,2025-08-23,13:00,e7d82598a4bf,MACH-15,1,7f28a7c0f4a1,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000204,2025-08-24,16:00,f43c5af19677,MACH-10,1,1339eeb8de9b,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000205,2025-08-24,23:00,a2df7147cba7,MACH-07,2,70d47da231f5,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000206,2025-08-25,02:00,dbd70eebb65c,MACH-10,2,819cc93853d2,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000207,2025-08-26,11:00,115ed4cb948c,MACH-07,1,e99b406854e3,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000208,2025-08-26,13:00,39675c2d7100,MACH-09,2,4cc8f69cf2f1,pièce bloquée convoyeur,matin,0,0,0,0,0,1,0,0,0
+INC-000209,2025-08-26,20:00,c0f3bd4b7938,MACH-15,1,b06b40b19210,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000210,2025-08-27,09:00,76f2f4f59c34,MACH-12,2,c4d383938ef5,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000211,2025-08-27,10:00,2eb26d5c7cf2,MACH-10,2,e4e95226793d,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000212,2025-08-27,16:00,a0360a843d7b,MACH-02,2,da01813a860d,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000213,2025-08-28,11:00,6c0c82f528cf,MACH-06,1,03f91515828d,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000214,2025-08-28,17:00,ffb269d07e65,MACH-05,1,df207d255c39,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000215,2025-08-28,19:00,19c563ace6dd,MACH-08,1,2ece5eb24b87,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000216,2025-08-29,00:00,6bf3ab11dc2c,MACH-01,2,f1945065f111,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000217,2025-08-29,13:00,41d2f3a55f4b,MACH-09,2,a759d57ff39b,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000218,2025-08-30,02:00,5ee183fb4257,MACH-11,2,6dec13a258dc,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000219,2025-08-30,03:00,66afff5c6330,MACH-15,1,01879fb77e21,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000220,2025-08-30,12:00,be171e32ddc9,MACH-05,2,66cb56429b3a,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000221,2025-08-30,12:00,46eececca3da,MACH-06,3,cbfc83318662,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000222,2025-08-30,21:00,4ebfbf37a983,MACH-06,1,9187fbe5e26f,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000223,2025-08-30,22:00,effd9c5265a2,MACH-01,2,f5933e611be8,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000224,2025-09-02,15:00,cbb347e0493c,MACH-08,1,1abd73e42fb4,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000225,2025-09-02,16:00,dab4b1418e02,MACH-08,4,55af16a0cc13,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000226,2025-09-02,20:00,a649dbc8c13b,MACH-12,2,20434a7a30a0,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000227,2025-09-03,09:00,33b841109fad,MACH-12,1,fd69d9316239,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000228,2025-09-03,19:00,7520ee4a96bd,MACH-05,1,451eeb904a7c,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000229,2025-09-04,01:00,0552bd44bac1,MACH-03,1,d41dc0f4849c,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000230,2025-09-04,14:00,7d3a2fc3bc97,MACH-10,1,59395b91e01a,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000231,2025-09-04,19:00,6e18fd5631d5,MACH-06,1,73cf18e13499,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000232,2025-09-04,23:00,1c870b04443a,MACH-06,2,6fbd96d267c0,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000233,2025-09-05,00:00,254119eb991d,MACH-14,3,e06a864cfdf0,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000234,2025-09-05,04:00,c2f940c6d8f4,MACH-06,1,08d632502d36,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000235,2025-09-05,12:00,31bf56c9ffbb,MACH-13,1,94b49fc1cf6a,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000236,2025-09-06,22:00,49dd193e5543,MACH-02,2,f09eb9dd688b,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000237,2025-09-07,09:00,8a5520d5a9b2,MACH-03,2,020a7279b06e,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000238,2025-09-07,21:00,9d847c9ec940,MACH-03,1,a4702b0ef481,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000239,2025-09-08,14:00,fa7c9aec702d,MACH-06,4,ef3d918935a3,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000240,2025-09-10,06:00,dc902ab464a2,MACH-06,1,347f47cdce73,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000241,2025-09-10,15:00,5b29f8c55ebf,MACH-11,2,1b41706a301b,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000242,2025-09-10,16:00,72ed8bbac6bd,MACH-08,2,b6f01304510e,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000243,2025-09-10,19:00,54addd17ec3c,MACH-04,1,9d2901686dc8,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000244,2025-09-10,22:00,f343dbdb7620,MACH-01,1,704e74b9fc8b,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000245,2025-09-11,19:00,15c55e3254a6,MACH-02,3,63762ccbb8a9,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000246,2025-09-11,19:00,2ef947a8ed66,MACH-14,2,549db90dcee6,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000247,2025-09-12,14:00,ba98531d92b8,MACH-13,3,f0ce1e29b2c8,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000248,2025-09-13,12:00,e3d80394cde5,MACH-09,3,c8d30bb3b93e,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000249,2025-09-13,19:00,a747711475e6,MACH-09,1,0e6644d3b4cc,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000250,2025-09-14,00:00,682770dc851f,MACH-04,3,a06f56c60789,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000251,2025-09-14,02:00,3440183ed879,MACH-03,1,df30719c82ce,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000252,2025-09-14,14:00,937d93d7c6de,MACH-08,1,baff3a6c3c69,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000253,2025-09-14,22:00,e82753c0157d,MACH-01,1,92e8a4e20511,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000254,2025-09-15,04:00,1b063337af12,MACH-05,2,202cec35f2fa,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000255,2025-09-15,06:00,a073be4a1c34,MACH-04,2,2cf740034aaa,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000256,2025-09-15,08:00,cc1d42d5f61c,MACH-10,1,3803968ac11d,,matin,0,0,0,0,0,0,1,0,0
+INC-000257,2025-09-15,22:00,d98ffb3fbbf8,MACH-11,1,23ab1b0b385a,,nuit,0,0,0,0,0,0,0,0,1
+INC-000258,2025-09-16,01:00,3c4acc3713fc,MACH-08,1,ac4fd66ffeec,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000259,2025-09-16,03:00,23f09e014f7a,MACH-13,1,60d3564f3ab3,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000260,2025-09-17,16:00,01dbcb4bbe20,MACH-10,2,c38d80782bb5,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000261,2025-09-18,02:00,dd52b0ac4807,MACH-04,1,6d89474e1a8e,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000262,2025-09-19,02:00,da1e9b5500b1,MACH-10,1,d7d09ac224c3,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000263,2025-09-19,04:00,c79d3d782c52,MACH-10,1,3261cac556f5,,nuit,0,0,0,1,0,0,0,0,0
+INC-000264,2025-09-19,15:00,258bb333959a,MACH-04,2,2111aec93aa6,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000265,2025-09-20,15:00,724606e8312c,MACH-07,1,3ace21544371,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000266,2025-09-20,22:00,ac390363ac34,MACH-02,2,0d381a982828,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000267,2025-09-21,01:00,ad357f125d02,MACH-10,2,8aa3792a7bf7,pièce bloquée convoyeur,nuit,0,0,0,0,0,1,0,0,0
+INC-000268,2025-09-21,04:00,d25936f4a47e,MACH-15,4,2a4aa3b4412a,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000269,2025-09-21,10:00,bb8484cc5bed,MACH-10,2,bcb0be993e8e,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000270,2025-09-21,16:00,21b44155fcf5,MACH-06,1,5c63dac77d95,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000271,2025-09-22,03:00,8a66569987c7,MACH-01,1,2f73a0272299,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000272,2025-09-22,06:00,71d2c5630c5d,MACH-14,1,35b5a7003a9a,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000273,2025-09-22,16:00,1632e924f868,MACH-04,3,ecfa7831a089,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000274,2025-09-22,22:00,3bf09fcc51c1,MACH-01,1,796f47743c51,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000275,2025-09-23,05:00,6021385e284e,MACH-13,1,a22d0a569456,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000276,2025-09-24,14:00,cbaa3bd0381d,MACH-09,1,cd1e7052e9b4,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000277,2025-09-25,06:00,4c742975e8c6,MACH-11,2,c2d405f39614,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000278,2025-09-25,20:00,1d474a2b47ef,MACH-07,1,47f335faae0c,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000279,2025-09-26,15:00,c4e9ace40fe0,MACH-05,3,92fa86876f04,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000280,2025-09-26,15:00,b07cefa42007,MACH-10,1,853cf1e6c43f,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000281,2025-09-26,17:00,9bc5c7e11bb4,MACH-06,1,858a0e712cfb,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000282,2025-09-26,18:00,acc3b7cba2d2,MACH-05,2,bcc8de280aa0,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000283,2025-09-27,04:00,fb9ed47e66e2,MACH-08,2,ff5d75cd8789,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000284,2025-09-27,10:00,03ed33faa61f,MACH-03,1,51d39f068f1d,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000285,2025-09-27,12:00,73227385ae2e,MACH-04,3,fc40c928ec43,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000286,2025-09-28,07:00,a08568663132,MACH-06,3,862f0c6a8674,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000287,2025-09-28,21:00,cd8df5ccce2b,MACH-09,1,af8fd9c1accd,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000288,2025-09-29,11:00,deddaf20946c,MACH-14,2,a04824a67cdd,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000289,2025-09-29,13:00,d8a7bdc29bc9,MACH-11,1,186fbd83a420,,matin,0,0,0,0,0,0,0,0,1
+INC-000290,2025-09-30,16:00,2ff41f53b668,MACH-03,2,a477211fb316,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000291,2025-10-01,11:00,f96d56ebc06f,MACH-11,2,23733bd1ff4a,,matin,0,1,0,0,0,0,0,0,0
+INC-000292,2025-10-01,12:00,d45b74b278f6,MACH-09,2,68049562f52d,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000293,2025-10-01,13:00,e1e148c0f5bc,MACH-06,3,e4e12f1d599e,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000294,2025-10-02,07:00,40ec03b9f3ac,MACH-08,1,ef7b89dfb7c7,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000295,2025-10-02,13:00,f9d8c81c533c,MACH-11,1,45cad5a11f46,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000296,2025-10-03,00:00,8b54904aa835,MACH-09,1,325979df3c29,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000297,2025-10-03,03:00,7669190b8946,MACH-07,1,c625cd50b8a7,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000298,2025-10-04,07:00,222ab628cc80,MACH-10,3,a3e2ba237a5c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000299,2025-10-04,14:00,4007b4962b9f,MACH-06,1,f1d1b405a0cd,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000300,2025-10-04,15:00,80a4ee9a8d55,MACH-13,2,417ea676863d,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000301,2025-10-04,19:00,f5734153fdff,MACH-14,1,147daa7d5276,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000302,2025-10-04,20:00,dc0919528944,MACH-02,1,5f7ca11730b4,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000303,2025-10-04,20:00,31a214d7edf4,MACH-12,1,9d106bb93a6f,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000304,2025-10-05,08:00,cb034479120d,MACH-04,2,7733fea69827,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000305,2025-10-05,13:00,85cd978101c5,MACH-11,4,b8b82a571523,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000306,2025-10-05,16:00,f8b60be115b4,MACH-01,4,bb263bd1260b,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000307,2025-10-06,05:00,5fc71085a74a,MACH-11,2,d701f07ed3de,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000308,2025-10-06,07:00,f902d5b288c8,MACH-02,1,573c1e225eb6,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000309,2025-10-06,08:00,68f7f728cade,MACH-03,1,fbccf7c7de3a,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000310,2025-10-06,10:00,51a71a1c4d6d,MACH-11,1,fda284739537,,matin,0,0,0,0,0,0,1,0,0
+INC-000311,2025-10-06,11:00,19f87abbb410,MACH-07,3,1aaea1267d5f,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000312,2025-10-07,03:00,f07b6279da4a,MACH-13,1,b6dc4c2ec01f,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000313,2025-10-07,21:00,4135a25e3aa6,MACH-12,1,9c826fa8bb62,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000314,2025-10-08,02:00,c5e7bc1305ed,MACH-03,1,c27c528ac712,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000315,2025-10-08,11:00,8b913fa4f4cf,MACH-14,2,ff9bde57c19e,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000316,2025-10-09,01:00,94cbb3d8adb1,MACH-08,2,c9d612ca4358,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000317,2025-10-09,02:00,f85f667770d2,MACH-12,4,9e5432f1f3a7,chauffe anormale + arrêt ligne,nuit,1,0,0,0,0,0,0,1,0
+INC-000318,2025-10-09,03:00,2f77a968e3fd,MACH-01,3,4aae998896b2,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000319,2025-10-09,10:00,40f7b003cb3c,MACH-06,1,178541597d6c,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000320,2025-10-09,13:00,41c9e2b95d45,MACH-13,1,c61605f35daf,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000321,2025-10-09,21:00,888e8e3e3807,MACH-04,2,9999a8b05b1f,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000322,2025-10-10,02:00,890b0943d8e9,MACH-06,1,babdd363e801,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000323,2025-10-10,08:00,772f45d42308,MACH-07,1,2ac67f99e624,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000324,2025-10-11,23:00,35ae2a8af445,MACH-12,3,deb3ebf50236,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000325,2025-10-12,22:00,77252c7ad216,MACH-01,2,411302c29409,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000326,2025-10-13,16:00,1559cb2e328d,MACH-01,1,9fcb83f02dc4,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000327,2025-10-13,20:00,8cb0a5cb9fce,MACH-15,2,d99095ad6e73,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000328,2025-10-13,22:00,0cf8fafc9d92,MACH-14,1,770b20f06999,,nuit,1,0,0,0,0,0,0,0,0
+INC-000329,2025-10-14,11:00,cc237f860142,MACH-11,1,9d2b027c11ff,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000330,2025-10-15,00:00,6d3b8d9492e4,MACH-05,1,01cc8cdb4bf0,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000331,2025-10-16,01:00,c62b32f8b09e,MACH-07,1,a847a1b4bb24,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000332,2025-10-16,15:00,8647139caab9,MACH-06,2,02c2daf5b1ec,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000333,2025-10-18,20:00,27935b5d1ea4,MACH-02,1,e1743d858a64,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000334,2025-10-18,20:00,f45c27fb8652,MACH-12,2,7ee07355d382,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000335,2025-10-19,16:00,2da679a98ede,MACH-07,1,5031df9d1b37,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000336,2025-10-21,01:00,af27f24e4d0d,MACH-15,2,4804340cf410,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000337,2025-10-21,13:00,29b30e88d216,MACH-15,1,d452ff0bb3f1,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000338,2025-10-22,21:00,28f7da8696dd,MACH-09,1,b9c1b915483f,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000339,2025-10-23,16:00,340c11243658,MACH-01,2,0e7f326bd0f8,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000340,2025-10-24,13:00,3fc7acc6b313,MACH-09,1,643d335aa548,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000341,2025-10-24,17:00,abf28970220d,MACH-02,1,4d59eaacfa9e,,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000342,2025-10-24,22:00,772acbcfdc35,MACH-08,1,09c87e47eeee,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000343,2025-10-25,01:00,1ad546085ba0,MACH-05,1,1a90d95682d4,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000344,2025-10-25,09:00,d51bc3292090,MACH-12,2,edb7a884d13d,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000345,2025-10-25,09:00,c800adbc0bdd,MACH-15,1,672453df8209,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000346,2025-10-25,11:00,96ac0f6cfe14,MACH-08,1,20e8da606217,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000347,2025-10-25,17:00,a8c2cb76a35d,MACH-07,2,b19a55a2060d,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000348,2025-10-25,18:00,2b96a0da0837,MACH-15,2,a61d7fa8d521,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000349,2025-10-25,23:00,2a88985e0d2b,MACH-15,2,2f432e99f62f,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000350,2025-10-26,00:00,669856d2022d,MACH-01,2,e62abe3a1e76,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000351,2025-10-26,03:00,67fbee3dfa5f,MACH-15,2,368f81f9b241,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000352,2025-10-26,22:00,2a97c6d10b95,MACH-14,1,4d503f6a18af,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000353,2025-10-27,00:00,e9260254dfed,MACH-04,1,b55a15fb4f66,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000354,2025-10-27,05:00,df31c3bd6871,MACH-13,3,26c9e3842fb5,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000355,2025-10-27,16:00,6d634f63037b,MACH-14,3,dd9f041b9f2e,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000356,2025-10-28,00:00,f89754f9e3af,MACH-08,1,1b5c68edaeaf,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000357,2025-10-28,00:00,90edd03f1e91,MACH-12,2,1ab91b73fed8,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000358,2025-10-28,14:00,6ddec26f6749,MACH-06,2,1460e987b600,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000359,2025-10-28,23:00,0b315d978b0d,MACH-10,1,63ee97725f24,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000360,2025-10-30,12:00,3458cd4bae68,MACH-06,2,baa064910dc6,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000361,2025-10-31,06:00,a0d90ee9ce0e,MACH-13,2,02d93bc1796d,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000362,2025-10-31,11:00,9e68b5a59263,MACH-12,2,a1d423823fd4,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000363,2025-10-31,16:00,8b2073c778ec,MACH-04,2,2872645a8189,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000364,2025-11-01,09:00,a0eb78eaa4db,MACH-04,1,a4c1aa655438,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000365,2025-11-01,14:00,3c7f31ac4ba0,MACH-13,1,aefd004f440a,,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000366,2025-11-01,16:00,7b49856c1a81,MACH-10,1,6ef7ac07c526,,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000367,2025-11-01,22:00,d1eb7fff56e2,MACH-11,2,5c3e52aa8aeb,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000368,2025-11-02,05:00,0f6f70352a50,MACH-01,2,061fbce63c2a,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000369,2025-11-03,04:00,ea1a88025900,MACH-07,2,290c2adf772f,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000370,2025-11-04,02:00,a6321b8b6f5a,MACH-04,1,7d92c79fcf8f,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000371,2025-11-06,01:00,6557936f1e03,MACH-07,1,f3635b11643a,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000372,2025-11-06,09:00,3e288b58552a,MACH-05,1,95786f6d2b60,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000373,2025-11-08,04:00,892299cf1f73,MACH-04,1,34df5b3432df,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000374,2025-11-08,04:00,b757a4793801,MACH-05,1,0af90441c222,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000375,2025-11-08,20:00,72f5d6113543,MACH-12,3,707885c38602,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000376,2025-11-08,22:00,eff31a906328,MACH-12,2,adafa0f4f8b1,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000377,2025-11-09,10:00,776a8d09f72b,MACH-10,1,8efcdccc9905,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000378,2025-11-09,20:00,f804dee9cb21,MACH-01,2,bec1bb37a41b,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000379,2025-11-09,22:00,7dd37c3c0312,MACH-05,3,e5cb411335c8,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000380,2025-11-10,16:00,e9943124ead7,MACH-14,1,3c85d5562cf6,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000381,2025-11-10,18:00,6392536e8584,MACH-14,1,3db554d1c18c,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000382,2025-11-10,21:00,4037edab0d59,MACH-06,1,89324eb682e3,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000383,2025-11-11,06:00,46759ca2a0d9,MACH-10,1,9533e40aa4b1,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000384,2025-11-11,08:00,3433de19ed84,MACH-05,2,1d0400914a14,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000385,2025-11-11,10:00,5ccc9c4cba72,MACH-10,3,818ca6a8e1a4,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000386,2025-11-11,17:00,a6869b66c6d4,MACH-09,1,4da43f0b9352,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000387,2025-11-11,19:00,3d7815769b33,MACH-11,2,f3212059ad81,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000388,2025-11-11,21:00,d44aedcf5e42,MACH-13,3,d8aa25dada89,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000389,2025-11-11,21:00,f856eafe2fa8,MACH-13,1,375728746123,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000390,2025-11-12,10:00,66f9b1ded4bb,MACH-15,1,fe67a2f98240,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000391,2025-11-13,04:00,3960c8dc82e3,MACH-15,1,858915e55873,,nuit,0,0,0,0,1,0,0,0,0
+INC-000392,2025-11-13,08:00,06a43079b691,MACH-10,2,2c8358bdf3e5,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000393,2025-11-13,09:00,3fcedb3e6589,MACH-12,2,7ff60281a90b,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000394,2025-11-13,10:00,c7cf746f882f,MACH-02,1,8094ebdab306,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000395,2025-11-13,14:00,249ac936c709,MACH-04,1,e4ee96ed51af,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000396,2025-11-13,15:00,d270c92d34e9,MACH-15,1,5946e86246a7,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000397,2025-11-14,01:00,34eb0f330f15,MACH-06,1,28d21dbc3fd5,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000398,2025-11-14,12:00,9441e192dcb0,MACH-11,2,3a569847651c,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000399,2025-11-14,18:00,9a243f36ff40,MACH-12,1,cb9d0fa5320e,,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000400,2025-11-15,04:00,86b6d47445fb,MACH-04,4,3d6d1158d1fa,vibration excessive + arrêt ligne,nuit,0,0,1,0,0,0,0,1,0
+INC-000401,2025-11-15,07:00,2798622066df,MACH-09,1,1d6cad26e491,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000402,2025-11-15,10:00,6f04fcf61b39,MACH-09,1,b3ee239c583b,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000403,2025-11-16,01:00,be6110cf15fb,MACH-01,1,772dfbdb4229,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000404,2025-11-16,13:00,4afef48ad8c9,MACH-08,2,78683f433b26,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000405,2025-11-16,16:00,3f0b19cc31cf,MACH-05,1,c3c21cc06b59,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000406,2025-11-16,16:00,01ab752afe82,MACH-09,1,2a5c5a4cdaf8,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000407,2025-11-17,11:00,709b7617188f,MACH-04,1,2b8d44f7b81d,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000408,2025-11-20,10:00,61c1d62d2e2a,MACH-12,2,26d10ee4403a,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000409,2025-11-20,23:00,996ee4c27b78,MACH-09,2,283ce217fd6f,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000410,2025-11-21,17:00,1e044767ff4c,MACH-06,1,f3cf6fbad7f2,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000411,2025-11-21,22:00,1c6e577beb85,MACH-03,1,f7dfa37c2fb5,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000412,2025-11-21,23:00,25bf1b0dbdca,MACH-08,4,9f2cfd5ca1e8,alarme capteur + arrêt ligne,nuit,0,0,0,0,0,0,1,1,0
+INC-000413,2025-11-22,07:00,0df7ca508850,MACH-05,1,fa3e85fdbb31,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000414,2025-11-22,20:00,57313321255c,MACH-01,2,04a87375bab1,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000415,2025-11-23,00:00,0b9622b17d8c,MACH-04,1,b47f821102d1,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000416,2025-11-23,02:00,8f3c84c8c93c,MACH-08,2,6f6c00554cda,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000417,2025-11-23,16:00,11aa46090c2f,MACH-11,1,45ebeb786603,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000418,2025-11-24,12:00,b1cbcf2963be,MACH-15,1,22dbe9853cff,,matin,0,0,0,0,0,0,1,0,0
+INC-000419,2025-11-24,21:00,90e24e7f3c90,MACH-12,1,29fadf865b33,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000420,2025-11-25,02:00,0af45f681875,MACH-08,3,b665b2514659,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000421,2025-11-25,03:00,4fd4bd0d3361,MACH-11,2,b2dd71feecc9,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000422,2025-11-25,11:00,e50e2d698734,MACH-06,2,4a4ba441030e,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000423,2025-11-26,03:00,74cc4238056a,MACH-07,1,e5a852df9a2b,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000424,2025-11-26,06:00,7fd5a525276c,MACH-13,1,6a06dc807530,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000425,2025-11-27,14:00,3cba1b6d935e,MACH-03,1,18dd4fa8a059,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000426,2025-11-27,17:00,2712059986c5,MACH-10,4,63805905f272,micro-fuite / baisse pression + arrêt ligne,apres-midi,0,1,0,0,0,0,0,1,0
+INC-000427,2025-11-27,21:00,553aad6f8d24,MACH-09,1,d7cd888c66ed,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000428,2025-11-28,16:00,c3b916c0b87f,MACH-12,2,0068d49597be,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000429,2025-11-29,17:00,a4e92f886046,MACH-05,1,84b1e840ef86,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000430,2025-11-30,02:00,4dc6a73c66a9,MACH-08,1,3564c555cc5a,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000431,2025-11-30,11:00,88c8a7f37943,MACH-03,2,4dcdcf5fc383,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000432,2025-12-01,19:00,ebaf9d1ed7c0,MACH-04,1,9b64c118d888,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000433,2025-12-01,21:00,5af78a95852e,MACH-09,1,1b319762f643,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000434,2025-12-02,13:00,402cac441743,MACH-15,3,1e6c5b7e8f2c,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000435,2025-12-03,13:00,1f5027a0cabf,MACH-13,1,e6779c6dfd26,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000436,2025-12-03,14:00,53e8fc11e3a7,MACH-04,1,405fcfff3d4b,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000437,2025-12-04,21:00,dc886c75e3d8,MACH-13,1,9304da1ba48a,,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000438,2025-12-05,15:00,bb08e3099983,MACH-06,2,de4492c98eef,pièce bloquée convoyeur,apres-midi,0,0,0,0,0,1,0,0,0
+INC-000439,2025-12-06,10:00,3f322774ece4,MACH-08,1,9ef6dcbc5768,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000440,2025-12-06,13:00,89c19b7dde0c,MACH-07,2,9bd05676b434,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000441,2025-12-06,16:00,73195c04d5e5,MACH-01,1,fcfbbffcccc2,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000442,2025-12-07,00:00,7bbb5112ef77,MACH-02,1,4cbaf29508fb,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000443,2025-12-07,05:00,ef595196e4c4,MACH-14,1,8c25db3cddea,,nuit,0,0,0,0,0,0,0,0,1
+INC-000444,2025-12-08,00:00,cb14f04d21f5,MACH-05,1,0e3785468ee7,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000445,2025-12-08,02:00,17f74fcefc0f,MACH-09,2,3234f873eb6f,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000446,2025-12-08,03:00,a3a2bba69039,MACH-12,2,6b934d12e76e,,nuit,0,0,0,0,1,0,0,0,0
+INC-000447,2025-12-08,05:00,95d17f57aef4,MACH-02,2,e0682b7fbff2,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000448,2025-12-08,19:00,1d89290027ec,MACH-01,1,c21e9cd377cd,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000449,2025-12-09,02:00,565b68b90ae1,MACH-10,3,ef9005c3d5fe,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000450,2025-12-09,11:00,945a2b5973ba,MACH-07,2,9c34ae4e7b8b,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000451,2025-12-09,13:00,c0ffa62acbe4,MACH-02,3,a1a1b40249bb,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000452,2025-12-09,13:00,3b9bc4f4f178,MACH-12,2,4e68c9a8caa5,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000453,2025-12-09,16:00,340c066693cc,MACH-15,1,6d5b5ba620d3,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000454,2025-12-09,19:00,fb5f5aa00b6d,MACH-13,1,1410691ef24f,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000455,2025-12-10,11:00,240b74c9f51e,MACH-08,1,fafa625781ad,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000456,2025-12-10,11:00,8ecd868c79ba,MACH-13,2,8617c75c34c2,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000457,2025-12-10,14:00,54952d031bda,MACH-12,1,ac758f5a1c10,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000458,2025-12-10,17:00,cc2288a8972f,MACH-06,1,2d7296aa45e9,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000459,2025-12-10,20:00,c43b28948129,MACH-01,1,62ae1108ff1f,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000460,2025-12-10,23:00,62121bab636e,MACH-04,1,c2f92513a248,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000461,2025-12-11,20:00,71f5fc10634b,MACH-05,3,fae44a7a1a08,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000462,2025-12-12,01:00,ac3245c5e995,MACH-04,1,6bfb8f096b97,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000463,2025-12-12,11:00,85c4a2ad1214,MACH-07,1,d9b9257a7139,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000464,2025-12-12,18:00,ff9e31ced791,MACH-02,1,5c2c79cef2cb,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000465,2025-12-12,18:00,acdcae6267fc,MACH-15,1,2ddd89d59636,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000466,2025-12-13,16:00,e8da0cf2012c,MACH-10,2,c25170150002,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000467,2025-12-13,23:00,35f9ff02f065,MACH-13,2,e2df9f35b821,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000468,2025-12-14,01:00,defa3f7afbc0,MACH-13,1,fd1aa6d04ba4,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000469,2025-12-15,02:00,78538c835629,MACH-10,1,793a01905437,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000470,2025-12-15,19:00,10cf504c3e49,MACH-14,1,0937ccf56688,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000471,2025-12-16,08:00,8a668adcd423,MACH-15,1,1690abfda9a0,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000472,2025-12-16,18:00,64f0adade537,MACH-01,1,6994fa6feab0,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000473,2025-12-17,03:00,b7aca5dc33f5,MACH-04,1,5bdf0f6fd29f,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000474,2025-12-17,09:00,d8fc4c811b74,MACH-05,1,43bf50a8347c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000475,2025-12-17,17:00,fe88f8d1ce25,MACH-02,1,9d3c67314460,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000476,2025-12-17,19:00,1578dd468bae,MACH-03,3,b0c1f419cf0a,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000477,2025-12-17,22:00,820b9904f785,MACH-11,2,5d4396c1f7f8,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000478,2025-12-18,12:00,c83e3f9cd240,MACH-02,4,240767210be6,micro-fuite / baisse pression + arrêt ligne,matin,0,1,0,0,0,0,0,1,0
+INC-000479,2025-12-19,06:00,14175ee3455e,MACH-05,3,b86813fd2a7d,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000480,2025-12-19,07:00,d4c624809109,MACH-02,1,7d4a42d5a057,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000481,2025-12-19,18:00,a44628658de3,MACH-02,1,3d7b5fd9d3c3,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000482,2025-12-20,00:00,1408e7177dcf,MACH-07,3,4ee70fce3c36,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000483,2025-12-20,07:00,3ace11f8721f,MACH-05,1,693872685c6b,,matin,1,0,0,0,0,0,0,0,0
+INC-000484,2025-12-20,08:00,8d9eb739eebe,MACH-14,2,4f4d788929af,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000485,2025-12-20,11:00,8693fb230da0,MACH-02,1,a218050c6ecd,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000486,2025-12-20,11:00,d4188eb55035,MACH-06,1,831c4b660ed8,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000487,2025-12-20,13:00,2c642e3bebf4,MACH-07,1,6f44aaf8278c,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000488,2025-12-21,18:00,7f92535cb158,MACH-15,1,8ccf6c2e6a75,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000489,2025-12-22,12:00,389f53431d29,MACH-15,1,c92d36e589cc,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000490,2025-12-23,14:00,1bfccdeb2fce,MACH-10,1,2d2dcbfd3d65,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000491,2025-12-25,01:00,481f4aea0824,MACH-10,1,5f8f7e175992,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000492,2025-12-25,20:00,c84ac7d9f35e,MACH-03,1,fe8524c74387,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000493,2025-12-25,20:00,d2c56917ddc8,MACH-15,2,3f46ad92bae4,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000494,2025-12-26,00:00,ee2df268633f,MACH-11,1,19ff9da16be9,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000495,2025-12-26,16:00,571a93d49be9,MACH-03,4,90cd30bbc065,bruit mécanique anormal + arrêt ligne,apres-midi,0,0,0,1,0,0,0,1,0
+INC-000496,2025-12-27,09:00,c88c90922242,MACH-08,2,468515c040da,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000497,2025-12-27,22:00,ed8ecc3ebf2b,MACH-12,1,d8b202af28ce,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000498,2025-12-28,20:00,2243894824bc,MACH-12,1,ef6be60b363d,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000499,2025-12-29,02:00,b08b383bb56b,MACH-08,2,23328ecebd90,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000500,2025-12-29,04:00,902025047e03,MACH-09,2,5da15d5b1abf,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000501,2025-12-29,10:00,b5cf8e1cb62d,MACH-13,1,0d9b76b19f85,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000502,2025-12-29,11:00,72d97472c17c,MACH-13,1,23016ea906f8,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000503,2025-12-29,18:00,a9d14821b108,MACH-04,1,53f27ec0f741,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000504,2025-12-29,23:00,e1e32a775d3a,MACH-14,3,c2731ffe22ef,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000505,2025-12-30,02:00,fd4e461d8228,MACH-07,3,32e0a37d9e44,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000506,2026-01-01,11:00,5c93bb807c99,MACH-02,3,0490555c0d9b,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000507,2026-01-01,19:00,2e0bca8bbe1d,MACH-14,2,4a827e834d4f,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000508,2026-01-02,02:00,312dba9655c7,MACH-03,2,fe13ab3f5d2a,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000509,2026-01-02,11:00,24a27d78b4cb,MACH-11,1,084f3e692d39,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000510,2026-01-02,13:00,a3a6e05c2ddc,MACH-12,2,aa8f246a2bc0,,matin,0,0,0,0,1,0,0,0,0
+INC-000511,2026-01-02,13:00,270f429ec8b9,MACH-13,1,f923e00533cf,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000512,2026-01-03,08:00,b9c711cb22a5,MACH-03,2,43ad0c0f218a,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000513,2026-01-03,09:00,cb1003663e92,MACH-12,2,a414e2abcc59,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000514,2026-01-03,11:00,53e12b89feda,MACH-01,1,9fb6edadb912,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000515,2026-01-03,19:00,fbc65faf7af5,MACH-02,3,b2597fb21e40,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000516,2026-01-04,00:00,47edeae84854,MACH-11,2,49fc53c3aba8,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000517,2026-01-04,02:00,2ecaedd1d438,MACH-14,3,0685d7a00d42,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000518,2026-01-04,16:00,73b9c66140dc,MACH-09,1,acc95ebe84e7,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000519,2026-01-04,18:00,a1d7c4085e8d,MACH-10,2,cdef9ca2cee5,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000520,2026-01-05,06:00,0f99bfbfd2e4,MACH-14,1,56152c060f9c,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000521,2026-01-05,22:00,f47a06f9d1a1,MACH-03,1,a95f1c3aec65,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000522,2026-01-07,06:00,3b15fabf170f,MACH-10,2,d538b1323b88,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000523,2026-01-08,09:00,a06a782f8163,MACH-15,2,6e464b3c6e3f,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000524,2026-01-08,18:00,28c1ff279f68,MACH-01,2,1d733a0be2ad,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000525,2026-01-08,23:00,d7b32ca95b17,MACH-06,1,5be94bf3980e,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000526,2026-01-09,15:00,cc989ec63f83,MACH-08,1,4f7c65147e8e,,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000527,2026-01-10,08:00,9ed1557adec2,MACH-10,1,3adc7b02fb65,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000528,2026-01-10,16:00,9ab4b817f4df,MACH-10,1,45d7431f9c7f,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000529,2026-01-11,07:00,8e881191de24,MACH-14,2,018730bf873c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000530,2026-01-11,12:00,6bf442d34cc9,MACH-14,3,27b302ff41dd,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000531,2026-01-12,01:00,cbdf4c1eea26,MACH-05,2,e4966502eaa5,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000532,2026-01-12,12:00,526fe09a591b,MACH-03,1,4fb51832c6bd,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000533,2026-01-12,21:00,0b03f0fa15ec,MACH-01,3,9055b07725f4,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000534,2026-01-13,09:00,03ae86256429,MACH-09,3,168194745cc0,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000535,2026-01-13,16:00,6dba68484291,MACH-07,2,e565cd2d39fa,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000536,2026-01-13,19:00,8090c4893348,MACH-14,3,66da0129542d,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000537,2026-01-14,12:00,a10d5d2247f1,MACH-11,4,13dbe480a1b6,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000538,2026-01-14,15:00,59d1129664ef,MACH-14,2,8565e84daa4e,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000539,2026-01-15,01:00,3dac21885f5c,MACH-09,1,1ff52abae5c6,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000540,2026-01-15,10:00,63263ee75e7e,MACH-09,1,2cfb6ca89758,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000541,2026-01-15,11:00,57d6aa97678c,MACH-06,3,417d74753a1b,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000542,2026-01-16,13:00,ed23f04fb3c3,MACH-02,1,369cbf89eb14,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000543,2026-01-16,14:00,a25dd82f2a63,MACH-07,3,649722317fd8,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000544,2026-01-17,14:00,557f4aa1a73f,MACH-05,1,7e7f57e7ce0c,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000545,2026-01-17,16:00,5422558127af,MACH-01,2,93c95f839701,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000546,2026-01-17,17:00,85bba8f11b2c,MACH-14,2,4257dbd61bd7,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000547,2026-01-18,02:00,3d54c861ae76,MACH-05,1,4a761e8badf3,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000548,2026-01-18,15:00,8129de3d948a,MACH-11,1,e0d0d1ae77be,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000549,2026-01-19,19:00,1d3f846cb58d,MACH-10,1,005bafd77105,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000550,2026-01-21,21:00,a3943a0db1f4,MACH-03,2,ed1c7367e541,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000551,2026-01-21,23:00,ace304416add,MACH-14,1,5a5e50b28c4b,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000552,2026-01-22,10:00,d154bdb46b72,MACH-14,3,704309c684b4,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000553,2026-01-22,17:00,d12ded7c2989,MACH-02,2,8cb763c51f73,pièce bloquée convoyeur,apres-midi,0,0,0,0,0,1,0,0,0
+INC-000554,2026-01-22,17:00,241ffc9049e6,MACH-02,2,0cf513d02e5a,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000555,2026-01-23,14:00,9d1ffdba738d,MACH-12,2,81902f4f4fcc,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000556,2026-01-23,15:00,bae3845c4c02,MACH-01,1,a7508bba5cf1,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000557,2026-01-24,15:00,ec038992a2a8,MACH-09,2,aeb102e74355,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000558,2026-01-24,15:00,7d4c2707d8b6,MACH-15,1,c9a4d3f32d19,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000559,2026-01-25,08:00,804c1209ad17,MACH-08,2,97c9e28ffa4c,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000560,2026-01-25,11:00,5eb64e711c20,MACH-03,1,44382cb0837d,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000561,2026-01-25,13:00,ace8375f7cd9,MACH-01,1,f39e09dfed1d,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000562,2026-01-25,13:00,062fb1e18d26,MACH-01,2,a248216abc53,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000563,2026-01-26,05:00,de586e3a1a06,MACH-07,1,b13f5c9d5c61,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000564,2026-01-26,08:00,91510e880bae,MACH-13,1,bbe715252741,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000565,2026-01-27,01:00,2c5d36809eb1,MACH-15,1,d847b8576782,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000566,2026-01-27,07:00,f5254f6fd1cd,MACH-02,1,90c2d253246b,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000567,2026-01-27,18:00,3bfb0b25ab48,MACH-02,3,4577d60a96f9,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000568,2026-01-28,11:00,2d615ea0c010,MACH-10,1,53dda0a93ce2,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000569,2026-01-28,19:00,ebffa167c74d,MACH-10,1,43e970f5127d,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000570,2026-01-29,10:00,d52ab1238c43,MACH-08,1,881753336517,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000571,2026-01-30,19:00,4890f1bb7bc2,MACH-03,1,81f2c74262b1,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000572,2026-01-31,00:00,95161ef10fb5,MACH-07,1,c62316bb83cb,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000573,2026-01-31,02:00,f864f0107964,MACH-02,1,9cc9c385e084,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000574,2026-01-31,02:00,42655ba98ff8,MACH-04,3,7774b79584c0,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000575,2026-01-31,08:00,fc766bfdab8e,MACH-08,1,e69d67517af5,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000576,2026-01-31,12:00,fe3bc234cced,MACH-13,3,566bc4a0f403,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000577,2026-01-31,15:00,57b9a4920dce,MACH-03,1,8258a2b1030d,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000578,2026-01-31,15:00,4c1901c75bf6,MACH-12,1,dc1b442b9331,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000579,2026-02-02,14:00,edca091cabc7,MACH-04,1,8014ada5b7b8,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000580,2026-02-02,17:00,7209a1c89b41,MACH-10,3,a37fedbd6db0,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000581,2026-02-02,20:00,82a9afce649e,MACH-04,1,84bf6cade07a,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000582,2026-02-03,11:00,b3068ee24475,MACH-13,1,1cd0f7ceb639,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000583,2026-02-03,12:00,66e368a85ec7,MACH-03,2,fe10da70f5f3,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000584,2026-02-03,17:00,5351ce6eb5f0,MACH-12,1,e1e110a52d88,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000585,2026-02-04,11:00,7b24f6f02f02,MACH-14,1,4f26396148cf,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000586,2026-02-05,06:00,0e5532064941,MACH-05,3,88f278823291,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000587,2026-02-05,15:00,bd56522360d8,MACH-14,1,96203506a9ee,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000588,2026-02-05,22:00,36e23fd8dc7a,MACH-06,2,d0a0d50acde8,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000589,2026-02-06,11:00,ea54f1612a8f,MACH-08,1,5ff940dd3fb8,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000590,2026-02-06,19:00,6779a01c6335,MACH-10,1,47252ad0d80c,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000591,2026-02-06,20:00,2c64b881578d,MACH-03,1,6fd708491cf8,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000592,2026-02-06,22:00,63ef900c40c9,MACH-08,2,3c5507b2019c,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000593,2026-02-07,11:00,0248e5c4c4ce,MACH-08,1,61367a49016c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000594,2026-02-08,09:00,d226837ae89f,MACH-14,1,4845e1026e97,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000595,2026-02-09,09:00,0c92df3c3cab,MACH-07,2,1beda6d5cd0f,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000596,2026-02-09,13:00,10eb0434f5b3,MACH-04,2,665f42c3395c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000597,2026-02-10,15:00,4616823189d1,MACH-10,2,3a98b697a285,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000598,2026-02-11,09:00,308536a3cd13,MACH-09,1,80510431cc0d,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000599,2026-02-11,11:00,1a1639aaaeef,MACH-03,3,05d7a725b30e,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000600,2026-02-12,15:00,b05cc10e96a1,MACH-03,1,f4a7c525aaad,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000601,2026-02-12,22:00,1039fb9615f8,MACH-03,1,98b72e2003bc,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000602,2026-02-12,23:00,c577c7ed1443,MACH-06,1,490939b85369,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000603,2026-02-13,07:00,b4eb2da2b52a,MACH-01,2,ef2113a5ecd1,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000604,2026-02-13,08:00,dc57af26738b,MACH-04,2,e7be43950d2f,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000605,2026-02-13,15:00,30e08efda7c8,MACH-09,2,378100d93400,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000606,2026-02-13,17:00,63c302661cfe,MACH-13,1,7ec78f58a559,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000607,2026-02-13,20:00,c81c8fd10d43,MACH-05,1,61071de7fd3c,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000608,2026-02-14,04:00,584dc48cb6e3,MACH-01,2,7b631cd6c16f,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000609,2026-02-14,04:00,7acd209479fa,MACH-03,2,787a748cffca,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000610,2026-02-14,04:00,d07eb79b97fb,MACH-12,1,2cdae93a5867,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000611,2026-02-14,11:00,b83dbada222a,MACH-06,2,760f5fbb892c,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000612,2026-02-14,11:00,e66aed777dcc,MACH-13,3,61ddc38ab769,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000613,2026-02-14,16:00,425fe0a0d8c4,MACH-10,1,f18b94fcebd3,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000614,2026-02-15,09:00,3a4048087635,MACH-13,1,5908dffd6655,,matin,0,0,0,1,0,0,0,0,0
+INC-000615,2026-02-15,11:00,38b74609f443,MACH-08,1,67131ebce6bb,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000616,2026-02-16,11:00,68d1e7ac87c4,MACH-08,1,095a73781c49,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000617,2026-02-16,16:00,b8cfd1472291,MACH-09,1,057f81fdfd7b,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000618,2026-02-17,06:00,6e86a8919c1f,MACH-11,2,5d96e316eaad,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000619,2026-02-17,16:00,244eaffc18fd,MACH-07,1,b12a263a5b53,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000620,2026-02-18,02:00,e8317dfb004a,MACH-08,1,c6eed34d7183,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000621,2026-02-18,02:00,581e0d108256,MACH-10,1,61a0fdb65e52,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000622,2026-02-18,14:00,1226b55d813f,MACH-04,1,29eba3960557,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000623,2026-02-19,12:00,7c4314af2220,MACH-09,1,71e149d6e4d3,,matin,0,0,1,0,0,0,0,0,0
+INC-000624,2026-02-19,15:00,f102a37e4fbe,MACH-01,3,5a3a4521339d,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000625,2026-02-20,09:00,9d6df60adf6f,MACH-15,2,2e2e2fd9f49b,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000626,2026-02-22,06:00,1ed1ad29ce85,MACH-12,2,c2cdb1ee77ed,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000627,2026-02-23,12:00,2f89c22566ef,MACH-06,1,0e1f907d24d5,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000628,2026-02-23,15:00,4ed76c75ab59,MACH-03,1,aff3081ce872,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000629,2026-02-23,17:00,b47447bcda70,MACH-04,3,76293a94a5eb,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000630,2026-02-24,13:00,075e69b68de3,MACH-06,2,63bd4b2c56fb,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000631,2026-02-24,23:00,54d6cb83c866,MACH-14,3,c7c3e402fdaa,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000632,2026-02-25,06:00,cbdce2b711e8,MACH-14,1,89d21fc18c3b,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000633,2026-02-26,02:00,069ac21cc8fb,MACH-13,1,564896ded558,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000634,2026-02-27,05:00,bbba5a08b107,MACH-10,1,650c8a3b78c2,,nuit,0,0,0,0,0,0,0,0,1
+INC-000635,2026-02-27,09:00,e930a0ca30c4,MACH-10,1,ca6acb6fb2d8,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000636,2026-02-27,22:00,4b0b189fbbf0,MACH-02,1,5bcbc9a7aa94,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000637,2026-02-28,01:00,269952a14f96,MACH-05,2,9e5dd382b29a,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000638,2026-03-01,04:00,14e7f588b599,MACH-08,2,e2158d671cf4,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000639,2026-03-01,18:00,e053118ac409,MACH-13,1,a0f662c5d3ee,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000640,2026-03-02,03:00,e22f61ae65ed,MACH-01,2,d4f06ed85c5b,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000641,2026-03-02,06:00,7af2d4d3b52c,MACH-11,1,3bd91be65853,,matin,0,0,0,0,0,0,1,0,0
+INC-000642,2026-03-02,16:00,20c3ca6548b7,MACH-12,1,09c106f197d1,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000643,2026-03-03,11:00,879d3851c941,MACH-08,2,e5ed1895900b,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000644,2026-03-03,12:00,e8c3d79fc8c9,MACH-12,3,da658d38808d,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000645,2026-03-04,15:00,8f7791e485aa,MACH-11,1,835ab54b4adb,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000646,2026-03-04,23:00,d78acb99940f,MACH-06,2,8d748ec9816b,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000647,2026-03-05,09:00,5377e1b38583,MACH-04,1,c531f0658887,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000648,2026-03-05,14:00,df4c4b2a1076,MACH-02,1,f455c7671588,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000649,2026-03-05,16:00,778e8bf1b68a,MACH-13,1,a39c8593fc23,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000650,2026-03-06,00:00,450752751d1a,MACH-12,2,09685d6d6d47,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000651,2026-03-06,01:00,d4327f20681c,MACH-01,3,af3f4ee78915,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000652,2026-03-06,13:00,024034ba2435,MACH-07,1,dff3a4b5e55e,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000653,2026-03-06,13:00,6d65f1f38328,MACH-15,1,3535ccfac572,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000654,2026-03-06,16:00,2317317d333b,MACH-08,2,9d3f3bd21bdd,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000655,2026-03-06,23:00,05e53d04fa8c,MACH-07,1,9576b4ea9962,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000656,2026-03-07,12:00,86569bd7a689,MACH-09,1,78834c08b8c0,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000657,2026-03-07,12:00,ffb912cbbae6,MACH-13,2,a199a62893e2,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000658,2026-03-07,15:00,b484842cc6cd,MACH-11,1,70269280812d,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000659,2026-03-08,01:00,2a769cde8b65,MACH-14,2,8ad59406a27b,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000660,2026-03-08,12:00,b3696bf8f103,MACH-03,3,9410ddaf53ee,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000661,2026-03-09,10:00,7addb84ede32,MACH-04,1,b77ec23eb65a,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000662,2026-03-09,14:00,fd721f166751,MACH-03,1,5591f970c93f,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000663,2026-03-09,19:00,2942ce3ad84f,MACH-15,1,481feabe6d79,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000664,2026-03-09,21:00,2e4193f67463,MACH-03,3,adebb0db7e19,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000665,2026-03-10,01:00,0b3cc8d677ef,MACH-04,3,8177c234a4fc,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000666,2026-03-11,00:00,7cb05d7cf9d3,MACH-15,1,5bad699e1dad,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000667,2026-03-11,01:00,926387668374,MACH-02,1,e3a338689d1e,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000668,2026-03-11,07:00,55a35cc6f606,MACH-13,1,61609e2f7fa1,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000669,2026-03-11,07:00,b8bce21a70d7,MACH-14,1,6ed7d8c2041c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000670,2026-03-11,09:00,ffab097a707c,MACH-01,1,1636aea7dde3,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000671,2026-03-11,12:00,701223e13f05,MACH-14,2,82aafafafbbc,chauffe anormale,matin,1,0,0,0,0,0,0,0,0
+INC-000672,2026-03-11,15:00,b0253d0c1d9f,MACH-15,2,07b495b342f8,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000673,2026-03-12,01:00,9d9bef80893d,MACH-03,1,052f8a6f3c3f,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000674,2026-03-12,07:00,e4201c52671c,MACH-03,3,7a19e45cd41b,pièce bloquée convoyeur,matin,0,0,0,0,0,1,0,0,0
+INC-000675,2026-03-12,17:00,8a6b894a5b33,MACH-10,2,427adc7aa80e,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000676,2026-03-13,02:00,9970db7ad3d1,MACH-02,3,6f9675f79892,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000677,2026-03-13,20:00,f46ca53e3ca6,MACH-10,3,4e844911b90e,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000678,2026-03-14,11:00,66ac1abf6fe9,MACH-11,1,707d06e08beb,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000679,2026-03-14,14:00,d1e1826241fa,MACH-10,3,a15df43bb19b,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000680,2026-03-14,18:00,f4ff26df22a7,MACH-04,1,a5b8ae011b48,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000681,2026-03-14,21:00,7b1b9dfe681c,MACH-01,2,00b4d528581f,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000682,2026-03-15,14:00,96a0827a45ec,MACH-08,2,fc4328412a23,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000683,2026-03-16,11:00,4e0a842b64bf,MACH-02,1,6d788033fbd6,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000684,2026-03-16,20:00,8f2a51effb28,MACH-09,2,cb669f83c38f,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000685,2026-03-17,10:00,f20b7303870e,MACH-01,2,414351d37550,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000686,2026-03-18,05:00,e741f6dbe0f8,MACH-05,1,8897efeb1cf4,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000687,2026-03-18,05:00,893853ecfdc5,MACH-10,3,cf5e6d38fa2d,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000688,2026-03-18,15:00,2c75467154b6,MACH-11,2,db82acc4a708,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000689,2026-03-18,21:00,636a02bc7874,MACH-04,3,e5ff843f917e,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000690,2026-03-20,07:00,302cf589fc34,MACH-13,1,caa52a141dda,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000691,2026-03-20,12:00,309d1d857100,MACH-03,1,2560634446a3,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000692,2026-03-20,17:00,ffafa6c18d94,MACH-02,2,ed1e6b519e7e,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000693,2026-03-20,23:00,39482ed8fff2,MACH-01,2,14ca9cf6f577,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000694,2026-03-21,03:00,785b67a163d7,MACH-11,2,cfdf3f6d3170,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000695,2026-03-21,21:00,7d5601650f24,MACH-06,2,d9c823978f9a,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000696,2026-03-22,09:00,b4aab268fbef,MACH-04,2,9d1530c1fa69,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000697,2026-03-22,12:00,12d38f6bdf05,MACH-09,1,86e3e3a731eb,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000698,2026-03-24,08:00,9eef73003a63,MACH-04,2,3151c4ffe66c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000699,2026-03-24,14:00,24ad2a7250f0,MACH-04,1,42e6a2f1cb44,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000700,2026-03-24,17:00,09c25b1580e3,MACH-08,1,4ee1974a8021,,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000701,2026-03-24,18:00,6efb22749f21,MACH-02,1,9ddecb1f7ea3,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000702,2026-03-25,04:00,e72e8f6ffb44,MACH-13,1,60df0c3a4875,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000703,2026-03-25,19:00,6cf3cc92692c,MACH-10,2,ad6976832c61,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000704,2026-03-25,21:00,dc373924e626,MACH-10,2,196ed13663d9,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000705,2026-03-26,08:00,c36b39914571,MACH-01,2,bbfae0ffe938,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000706,2026-03-26,19:00,6f7b205fdb51,MACH-15,1,4c73ea0fa782,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000707,2026-03-27,09:00,2069c2ad0575,MACH-01,2,684e97e9cdc6,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000708,2026-03-27,11:00,183d834605ea,MACH-15,1,dfd96b7dd652,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000709,2026-03-27,15:00,1249db22b863,MACH-13,1,c2c49d366f74,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000710,2026-03-28,17:00,4538595cef7e,MACH-04,2,d3e81782e949,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000711,2026-03-29,05:00,6d06bc2178a7,MACH-10,1,3372288ddd04,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000712,2026-03-29,11:00,e0a97a70f431,MACH-14,3,bd563976bf5d,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000713,2026-03-29,17:00,30a05a83a5f2,MACH-06,2,80cef1a5d2e5,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000714,2026-03-29,19:00,07c62f40f9c9,MACH-13,1,abfeada04392,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000715,2026-03-30,05:00,5ae31a89538e,MACH-02,2,2bc15c211acb,pièce bloquée convoyeur,nuit,0,0,0,0,0,1,0,0,0
+INC-000716,2026-04-01,00:00,056ac8ea0283,MACH-13,1,f7adafb0a2b0,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000717,2026-04-01,08:00,f183015822fc,MACH-15,1,c8288465962c,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000718,2026-04-01,09:00,3426d7018a62,MACH-01,1,256c2f2535eb,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000719,2026-04-01,18:00,995b17d4bdec,MACH-05,2,3065eb9e4aa7,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000720,2026-04-01,20:00,ac886a3c9707,MACH-01,1,45b0bd4433f5,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000721,2026-04-03,04:00,a4320ab7d7e8,MACH-14,1,5c855fbea243,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000722,2026-04-03,06:00,a4f95a1fcb3d,MACH-02,2,ef6c8e51cfa1,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000723,2026-04-03,09:00,a5f11737d453,MACH-08,1,0152dd9ac143,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000724,2026-04-03,09:00,adf401f726f5,MACH-09,1,8be2c47df4cc,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000725,2026-04-03,13:00,ee66d2bc1ca3,MACH-05,1,abdb9ecb1199,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000726,2026-04-03,17:00,8f25b2301d73,MACH-03,2,b09578f633bc,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000727,2026-04-04,04:00,9b27dd59addb,MACH-15,1,5a58828a5ac1,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000728,2026-04-04,05:00,47cad093dcd3,MACH-06,1,57a32dde44d2,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000729,2026-04-04,22:00,b52268d2606b,MACH-05,2,9dc5f5576335,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000730,2026-04-05,01:00,56a804c697b2,MACH-13,1,a7457f52b1ff,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000731,2026-04-05,03:00,afaccc64b81e,MACH-13,2,bf3c747a3149,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000732,2026-04-05,05:00,603b85d76085,MACH-02,1,8ed23d4568d0,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000733,2026-04-06,07:00,c9269017a28b,MACH-09,2,e84e6cdfb02a,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000734,2026-04-06,15:00,88ee9c16a602,MACH-14,1,9a5c27a66b75,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000735,2026-04-06,19:00,bd1f677b2251,MACH-04,1,aba0f8bd557d,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000736,2026-04-08,06:00,aac0e480e2b0,MACH-03,2,03727b4b3f9b,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000737,2026-04-08,06:00,b8688d23b682,MACH-14,3,45f2034811b3,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000738,2026-04-08,08:00,6511b3bb851f,MACH-02,3,ebf3458bfd85,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000739,2026-04-08,11:00,c5d6c6b08510,MACH-15,2,fa14fd98079c,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000740,2026-04-08,15:00,175551bfb1d8,MACH-03,1,3f4536adca35,,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000741,2026-04-08,18:00,69e60c4ee0d7,MACH-04,1,a3935203f21b,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000742,2026-04-09,07:00,30368873a052,MACH-10,2,38c1f0102e1e,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000743,2026-04-09,13:00,94ea55d5a6db,MACH-11,2,54f9340cc81b,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000744,2026-04-10,04:00,94a759aeee08,MACH-11,1,c11995544f94,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000745,2026-04-10,11:00,83e2e3a0fdc0,MACH-08,3,0b9dcab46169,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000746,2026-04-10,22:00,6899a3a02b80,MACH-05,1,6b8254bb8342,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000747,2026-04-11,23:00,bc992143cca7,MACH-04,5,121fc7a6f5ed,chauffe anormale + arrêt ligne,nuit,1,0,0,0,0,0,0,1,0
+INC-000748,2026-04-12,03:00,efdc0a023b98,MACH-02,1,c74eeef72bc5,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000749,2026-04-12,23:00,32c42df8ea25,MACH-05,4,4a1beb49e4c3,défaut qualité pièces + arrêt ligne,nuit,0,0,0,0,0,0,0,1,1
+INC-000750,2026-04-13,00:00,ae47d126d061,MACH-11,1,485cdef35379,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000751,2026-04-13,00:00,5cda22c018eb,MACH-11,2,d7e3fba3ba24,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000752,2026-04-13,06:00,f69ad49d633d,MACH-04,1,614e2edda3b4,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000753,2026-04-13,06:00,144c133677fb,MACH-12,1,7e0fc3353040,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000754,2026-04-13,10:00,97e83d72fdf4,MACH-07,1,62d0cf50deff,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000755,2026-04-13,15:00,e6b324b77da5,MACH-07,1,dff9e2f04af3,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000756,2026-04-13,22:00,32ca15f43779,MACH-06,1,328834efdc42,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000757,2026-04-13,22:00,45a143ee57e8,MACH-11,1,d8006131e947,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000758,2026-04-14,11:00,f08678917c8c,MACH-03,3,16e1c219153c,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000759,2026-04-14,18:00,20f7c262eaa5,MACH-05,2,9add7fab7743,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000760,2026-04-15,09:00,b7fcd11917bc,MACH-01,2,dbe1a2c629d9,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000761,2026-04-15,19:00,d5bb9837f9f7,MACH-04,1,bf3f80cd028b,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000762,2026-04-15,22:00,7afe9432029e,MACH-14,2,3a1041495315,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000763,2026-04-16,03:00,34c1d11e3a4e,MACH-12,3,5a7ad9911611,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000764,2026-04-17,04:00,10252a6cb07d,MACH-11,1,1ab2aff782e6,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000765,2026-04-17,13:00,a9a4a6d88f74,MACH-06,1,158f7dbe0274,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000766,2026-04-17,18:00,083d55ca76ca,MACH-09,1,f1e297752e4e,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000767,2026-04-18,05:00,91120b09b23e,MACH-06,1,6640da93415d,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000768,2026-04-18,05:00,e46c5804f587,MACH-06,1,8e96b2441c29,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000769,2026-04-18,16:00,73e17ccd4150,MACH-14,1,54a77f7259bc,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000770,2026-04-18,18:00,5b45cdadca87,MACH-07,2,6a9b937e7bc9,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000771,2026-04-18,23:00,d4438f20e273,MACH-05,1,8def184e94ee,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000772,2026-04-19,06:00,e67c17224c2a,MACH-09,1,b9dea9ed0308,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000773,2026-04-21,04:00,c76339174491,MACH-08,1,dacd303cd457,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000774,2026-04-21,11:00,85119e36158a,MACH-06,2,1902c8bbbcd1,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000775,2026-04-22,08:00,9e2858e8f294,MACH-14,1,26beed9dd4e9,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000776,2026-04-22,14:00,dfbf85c7abe6,MACH-08,1,08e237b4d617,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000777,2026-04-22,18:00,3981cc119e24,MACH-08,2,ac96abd31dec,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000778,2026-04-23,05:00,95d2b2ae2fdb,MACH-05,2,cf2bd0ebed6c,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000779,2026-04-24,08:00,f33ec7a573a6,MACH-09,4,48e736d4ddb6,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000780,2026-04-24,13:00,f3148da266b4,MACH-03,1,11a11d208a9c,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000781,2026-04-24,13:00,153240d2f9ad,MACH-10,2,bb2623970315,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000782,2026-04-24,15:00,69fe0fe41de9,MACH-10,1,cf2a9d2c8bf0,,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000783,2026-04-25,01:00,935172fb6268,MACH-03,2,6dcbb6add150,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000784,2026-04-25,01:00,b6ac16f5c455,MACH-10,1,fb054938289b,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000785,2026-04-25,02:00,e970fbceef58,MACH-12,2,65f8efe3c418,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000786,2026-04-25,03:00,23df713b1803,MACH-04,2,3a581aee387e,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000787,2026-04-25,10:00,e10b18fc488d,MACH-09,1,d866d9a4fbc7,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000788,2026-04-25,12:00,72443da93810,MACH-08,1,7fb5f4a83013,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000789,2026-04-25,18:00,3ce5ebb6c7d9,MACH-07,1,e91a0d3b2330,,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000790,2026-04-26,12:00,64e3b0518928,MACH-14,3,64353d3e91d2,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000791,2026-04-27,01:00,a91897b2bd76,MACH-03,1,379ccba34475,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000792,2026-04-27,05:00,ec2282246f86,MACH-12,2,bbccd785452e,chauffe anormale,nuit,1,0,0,0,0,0,0,0,0
+INC-000793,2026-04-27,06:00,20f394dbc922,MACH-06,2,7425984a49ff,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000794,2026-04-27,07:00,561967b0f44d,MACH-05,1,0e1a623343fe,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000795,2026-04-27,17:00,56369ee02195,MACH-10,1,785735a2ec5b,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000796,2026-04-27,21:00,ab431eb6f6df,MACH-06,1,804b0bb96706,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000797,2026-04-28,06:00,e6bb91c8c4b9,MACH-10,1,081e262a3855,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000798,2026-04-29,10:00,7b46e91f43a6,MACH-12,1,193cb0d5ab67,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000799,2026-04-29,18:00,9d98375c294f,MACH-06,3,0a09f2c14c67,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000800,2026-04-30,01:00,05a49d5cf5c9,MACH-06,1,b52876b23eb7,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000801,2026-04-30,06:00,f4a3e12e371f,MACH-09,1,117422c65307,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000802,2026-05-01,05:00,c531fb9c6503,MACH-01,1,a8326e9a44a4,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000803,2026-05-01,05:00,30b6d9ff7028,MACH-15,2,1e61bade5d95,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000804,2026-05-01,09:00,f0160a401b92,MACH-10,1,1cde9d82c030,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000805,2026-05-02,09:00,a2bb76599e8b,MACH-08,2,7ad2ab970a8a,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000806,2026-05-03,00:00,59b2cdfd0eda,MACH-13,2,fc0d797e947f,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000807,2026-05-03,20:00,098077d7d359,MACH-15,1,7180b180c32d,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000808,2026-05-04,02:00,0e07c0735fd5,MACH-15,1,73e13e6a98f3,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000809,2026-05-05,20:00,5b3e4048d264,MACH-12,1,ef3267dcf166,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000810,2026-05-06,15:00,1beed486b6b5,MACH-12,1,aac44db17d78,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000811,2026-05-07,15:00,d3e77e96704a,MACH-07,1,b526dff2b5fd,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000812,2026-05-08,10:00,203172a1d236,MACH-09,2,1a5ebddb4d7b,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000813,2026-05-08,14:00,2394e0cb228d,MACH-08,2,139047915337,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000814,2026-05-08,21:00,dac64e05231b,MACH-06,2,22f27bfe6085,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000815,2026-05-09,03:00,cf0b90cb53c4,MACH-01,2,0013587564db,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000816,2026-05-09,07:00,19d88eff180d,MACH-08,1,2cf2ddd04c98,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000817,2026-05-09,07:00,107f937f9dab,MACH-14,1,880b236e9654,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000818,2026-05-09,19:00,9cb5c4f036b7,MACH-06,3,2f9bafd64928,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000819,2026-05-09,20:00,3d4ca0f4338c,MACH-06,1,215cc0109e40,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000820,2026-05-09,22:00,34fdf783617d,MACH-07,1,a85c96edf4b2,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000821,2026-05-10,04:00,333c358bc441,MACH-03,2,ec2e1addc073,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000822,2026-05-10,12:00,43f4bf8345b7,MACH-08,3,68c6a504350b,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000823,2026-05-10,18:00,15346a228583,MACH-01,1,9d9a3e2c3cc7,vibration excessive,apres-midi,0,0,1,0,0,0,0,0,0
+INC-000824,2026-05-11,04:00,e880e92be51d,MACH-10,2,611cdaf00f69,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000825,2026-05-11,09:00,67393b65e8f8,MACH-05,2,0555818907f6,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000826,2026-05-11,13:00,c04041826fc6,MACH-09,2,0a94f7922df2,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000827,2026-05-11,16:00,61ec4eb48c70,MACH-03,3,9697d36920ab,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000828,2026-05-12,11:00,3920f0c6c93c,MACH-09,1,d65b8ae98e84,,matin,0,0,0,0,0,0,1,0,0
+INC-000829,2026-05-12,15:00,09f41938f231,MACH-12,3,52214aa18cfc,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000830,2026-05-12,16:00,ec8e4201b9f6,MACH-09,1,3fe3fd6b1d1d,bruit mécanique anormal,apres-midi,0,0,0,1,0,0,0,0,0
+INC-000831,2026-05-12,18:00,7cc488b7e7eb,MACH-05,1,75b42c329e0c,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000832,2026-05-14,08:00,8f6e759bb2f9,MACH-08,1,149b1a8b056c,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000833,2026-05-14,13:00,c89602cfe7f3,MACH-09,1,51c0b1f8dd53,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000834,2026-05-14,16:00,79b73727959f,MACH-10,1,41037fa83cb3,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000835,2026-05-15,00:00,05188dfb4622,MACH-03,1,33924865a82e,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000836,2026-05-15,07:00,0149483a599f,MACH-14,2,2b666fee0880,,matin,1,0,0,0,0,0,0,0,0
+INC-000837,2026-05-16,00:00,215156e72c45,MACH-09,1,aa22fe880d39,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000838,2026-05-16,02:00,0e5eff69a215,MACH-11,2,376e9846886b,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000839,2026-05-16,06:00,2310a236f534,MACH-02,3,d649a20d1cb4,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000840,2026-05-16,19:00,b3f33ecb2a11,MACH-12,2,540d34ff50b2,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000841,2026-05-16,23:00,08d53299d432,MACH-12,2,7aa4be3e8e78,,nuit,0,0,0,0,1,0,0,0,0
+INC-000842,2026-05-17,08:00,3053593e84de,MACH-06,1,099be4ad8545,,matin,0,0,0,1,0,0,0,0,0
+INC-000843,2026-05-17,16:00,c5813ea191d9,MACH-11,2,cde0839c6da0,,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000844,2026-05-17,18:00,e0439f9a5cf0,MACH-02,2,35f28479f026,surconsommation électrique,apres-midi,0,0,0,0,1,0,0,0,0
+INC-000845,2026-05-17,22:00,c5c8349cbd87,MACH-06,1,07d5f2989d74,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000846,2026-05-19,08:00,81a0e269a8f6,MACH-10,2,6400161c98fd,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000847,2026-05-20,11:00,37228c1307bb,MACH-14,2,079a9534355d,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000848,2026-05-20,15:00,436d8ab6dd56,MACH-15,2,1ade53686eb3,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000849,2026-05-20,18:00,cd5ff617cfbf,MACH-08,3,477e6c55adf0,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000850,2026-05-21,23:00,ac01edd07115,MACH-10,3,fd7aabb3d5b1,,nuit,0,0,0,0,1,0,0,0,0
+INC-000851,2026-05-22,19:00,1a881096a844,MACH-14,3,875e87ffeea5,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000852,2026-05-23,08:00,d9cd7f625130,MACH-06,1,cf1666c4bf8a,,matin,0,1,0,0,0,0,0,0,0
+INC-000853,2026-05-23,08:00,3257cd850403,MACH-08,1,516d0f49fd06,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000854,2026-05-23,10:00,a7f363f03b95,MACH-03,2,abbacc227b9b,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000855,2026-05-23,13:00,6300e7521947,MACH-08,1,7ef21971114b,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000856,2026-05-23,13:00,4016ae6961e9,MACH-14,3,ce524f6a9531,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000857,2026-05-24,00:00,58de68ef7640,MACH-13,1,72a6134a8962,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000858,2026-05-24,03:00,b90bccd41bdf,MACH-03,1,191391c3d5ba,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000859,2026-05-24,16:00,f02a91103a24,MACH-13,2,f21ed9593c1b,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000860,2026-05-25,06:00,4d30d1abd6bc,MACH-08,1,5950ee467118,vibration excessive,matin,0,0,1,0,0,0,0,0,0
+INC-000861,2026-05-25,22:00,f024920b56b0,MACH-04,3,6cfdac807f40,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000862,2026-05-27,01:00,99b17f8e724c,MACH-12,1,bd2e7ad6b2ff,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000863,2026-05-27,04:00,8e9bcde04afb,MACH-13,2,7dc8c8c4f8fa,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000864,2026-05-27,11:00,e125a0eef098,MACH-11,1,1aac1d944591,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000865,2026-05-27,14:00,0f73c6790ebb,MACH-07,4,d65810be3f00,pièce bloquée convoyeur,apres-midi,0,0,0,0,0,1,0,0,0
+INC-000866,2026-05-27,18:00,dda776d29b19,MACH-09,3,90e2d1aa5aea,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000867,2026-05-28,00:00,91064cba3c80,MACH-03,3,9e2a15ca9a89,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000868,2026-05-28,01:00,3d2eeb9f6ae3,MACH-12,4,9388393ac33c,micro-fuite / baisse pression + arrêt ligne,nuit,0,1,0,0,0,0,0,1,0
+INC-000869,2026-05-28,08:00,417113f33bfb,MACH-14,2,4fcf37bcb940,,matin,1,0,0,0,0,0,0,0,0
+INC-000870,2026-05-28,20:00,31f91cf44e5e,MACH-12,2,409db6632da9,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000871,2026-05-28,21:00,dd9b9c9b2c4f,MACH-07,2,17164456c47e,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000872,2026-05-29,03:00,78de5dc2cfea,MACH-07,2,9ba6ec917b4d,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000873,2026-05-29,23:00,3d23cade0108,MACH-13,2,400858c6f571,bruit mécanique anormal,nuit,0,0,0,1,0,0,0,0,0
+INC-000874,2026-05-30,09:00,42f71524a381,MACH-02,1,5f5aaeffbece,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000875,2026-05-30,19:00,71ddfbef5252,MACH-05,5,a93f1e92995c,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000876,2026-05-31,09:00,45e94543eae2,MACH-09,2,58e7c004fd83,alarme capteur,matin,0,0,0,0,0,0,1,0,0
+INC-000877,2026-05-31,12:00,7d5caa11ddc5,MACH-02,2,b077933aff98,défaut qualité pièces,matin,0,0,0,0,0,0,0,0,1
+INC-000878,2026-05-31,19:00,b873c0440bd1,MACH-05,1,03bcfbf3f167,chauffe anormale,apres-midi,1,0,0,0,0,0,0,0,0
+INC-000879,2026-06-02,00:00,bb9da60d6da6,MACH-09,2,314bee97cdb3,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000880,2026-06-02,04:00,7f471297921c,MACH-07,1,9d1b8d8302fa,micro-fuite / baisse pression,nuit,0,1,0,0,0,0,0,0,0
+INC-000881,2026-06-02,05:00,10031c897d5a,MACH-05,3,5c4b83829dae,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000882,2026-06-02,09:00,dde85458375a,MACH-03,1,16457646631c,micro-fuite / baisse pression,matin,0,1,0,0,0,0,0,0,0
+INC-000883,2026-06-02,10:00,81fccc958205,MACH-06,2,22e9f2041f71,pièce bloquée convoyeur,matin,0,0,0,0,0,1,0,0,0
+INC-000884,2026-06-02,12:00,d17065fff332,MACH-02,3,2680931da906,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000885,2026-06-02,15:00,10adbad2f240,MACH-14,1,f1a2eae91f3c,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000886,2026-06-02,19:00,63eda980601c,MACH-04,1,5cef93812eab,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000887,2026-06-02,22:00,1a3c1a0bdc2c,MACH-05,2,bafc25f4181e,alarme capteur,nuit,0,0,0,0,0,0,1,0,0
+INC-000888,2026-06-03,10:00,b08ea0f997d9,MACH-09,2,9c37cc0c0a21,,matin,0,0,0,0,1,0,0,0,0
+INC-000889,2026-06-03,18:00,8786eec25e7c,MACH-11,1,4649ac35413c,micro-fuite / baisse pression,apres-midi,0,1,0,0,0,0,0,0,0
+INC-000890,2026-06-03,20:00,b5d4a9a920bd,MACH-13,2,6e16547429cd,alarme capteur,apres-midi,0,0,0,0,0,0,1,0,0
+INC-000891,2026-06-04,00:00,707e60ebeea4,MACH-07,2,c735f30d0ee9,vibration excessive,nuit,0,0,1,0,0,0,0,0,0
+INC-000892,2026-06-04,06:00,b2be50e69e42,MACH-06,1,b0fd3dcfc134,bruit mécanique anormal,matin,0,0,0,1,0,0,0,0,0
+INC-000893,2026-06-04,10:00,a1698e72ed9c,MACH-09,1,66e794b148c8,surconsommation électrique,matin,0,0,0,0,1,0,0,0,0
+INC-000894,2026-06-06,05:00,89d15dbd22c3,MACH-03,1,62591ed5e488,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000895,2026-06-06,18:00,85dce2808363,MACH-04,2,679b95f165e1,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000896,2026-06-07,00:00,fb71da4f0e77,MACH-10,1,0ca87a22ff3b,défaut qualité pièces,nuit,0,0,0,0,0,0,0,0,1
+INC-000897,2026-06-07,02:00,9ef07e462678,MACH-12,1,755f7257cdaa,surconsommation électrique,nuit,0,0,0,0,1,0,0,0,0
+INC-000898,2026-06-07,21:00,45007f963379,MACH-10,2,122d1bf53010,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
+INC-000899,2026-06-08,00:00,c2f8888601e0,MACH-13,3,4e0a121a35d7,,nuit,0,1,0,0,0,0,0,0,0
+INC-000900,2026-06-08,17:00,3c8dc9910330,MACH-06,2,a3940eade0a2,défaut qualité pièces,apres-midi,0,0,0,0,0,0,0,0,1
