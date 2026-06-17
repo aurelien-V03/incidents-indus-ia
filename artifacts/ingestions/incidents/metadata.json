@@ -150,5 +150,13 @@
         "num_columns": 18,
         "num_unique_machines": 15,
         "num_missing_values": 59
+    },
+    {
+        "timestamp": "202606171815",
+        "source_file": "artifacts/ingestions/incidents/releves_incidents.csv",
+        "num_rows": 1245,
+        "num_columns": 18,
+        "num_unique_machines": 15,
+        "num_missing_values": 0
     }
 ]
