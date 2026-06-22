@@ -1,6 +1,6 @@
 -- InduSense 4.0 - référentiel machines et maintenance (PostgreSQL)
 BEGIN;
-CREATE TABLE IF NOT EXISTS machine (
+CREATE TABLE IF NOT EXISTS bronze_machine (
     machine_code                    VARCHAR(16) PRIMARY KEY,
     commissioning_date              DATE NOT NULL,
     max_daily_capacity              INTEGER NOT NULL CHECK (max_daily_capacity > 0),
@@ -13,9 +13,9 @@ CREATE TABLE IF NOT EXISTS machine (
     created_at                      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at                      TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
-CREATE INDEX IF NOT EXISTS idx_machine_line ON machine(production_line);
-CREATE INDEX IF NOT EXISTS idx_machine_location ON machine(location);
-INSERT INTO machine (machine_code, commissioning_date, max_daily_capacity, max_hourly_capacity_pieces, model, production_line, location, criticality)
+CREATE INDEX IF NOT EXISTS idx_machine_line ON bronze_machine(production_line);
+CREATE INDEX IF NOT EXISTS idx_machine_location ON bronze_machine(location);
+INSERT INTO bronze_machine (machine_code, commissioning_date, max_daily_capacity, max_hourly_capacity_pieces, model, production_line, location, criticality)
 VALUES
 ('MACH-01', '2021-05-12', 770, 48, 'InduPress-X2', 'Ligne-A', 'Atelier-2', 'MEDIUM'),
 ('MACH-02', '2024-09-07', 800, 50, 'InduPress-X2', 'Ligne-A', 'Atelier-1', 'LOW'),
@@ -42,9 +42,9 @@ location = EXCLUDED.location,
 criticality = EXCLUDED.criticality,
 updated_at = NOW();
 
-CREATE TABLE IF NOT EXISTS maintenance (
+CREATE TABLE IF NOT EXISTS bronze_maintenance (
     maintenance_id                  INTEGER PRIMARY KEY,
-    machine_code                    VARCHAR(16) NOT NULL REFERENCES machine(machine_code) ON DELETE RESTRICT,
+    machine_code                    VARCHAR(16) NOT NULL REFERENCES bronze_machine(machine_code) ON DELETE RESTRICT,
     maintenance_at                  TIMESTAMPTZ NOT NULL,
     maintenance_type                VARCHAR(16) NOT NULL CHECK (maintenance_type IN ('proactive','reactive')),
     action_type                     VARCHAR(32) NOT NULL,
@@ -55,9 +55,9 @@ CREATE TABLE IF NOT EXISTS maintenance (
     created_at                      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at                      TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
-CREATE INDEX IF NOT EXISTS idx_maintenance_machine_time ON maintenance(machine_code, maintenance_at);
-CREATE INDEX IF NOT EXISTS idx_maintenance_type ON maintenance(maintenance_type);
-INSERT INTO maintenance (maintenance_id, machine_code, maintenance_at, maintenance_type, action_type, component, description, related_incident_id, duration_hours)
+CREATE INDEX IF NOT EXISTS idx_maintenance_machine_time ON bronze_maintenance(machine_code, maintenance_at);
+CREATE INDEX IF NOT EXISTS idx_maintenance_type ON bronze_maintenance(maintenance_type);
+INSERT INTO bronze_maintenance (maintenance_id, machine_code, maintenance_at, maintenance_type, action_type, component, description, related_incident_id, duration_hours)
 VALUES
 (1, 'MACH-01', '2025-06-15 10:00:00+00', 'proactive', 'changement_programme', 'capteur température', 'Remplacement programmé capteur température', NULL, 2.24),
 (2, 'MACH-01', '2025-08-14 10:00:00+00', 'proactive', 'changement_programme', 'filtre hydraulique', 'Remplacement programmé filtre hydraulique', NULL, 2.76),
