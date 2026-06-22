@@ -1,5 +1,6 @@
 from models.bronze import (
     Base,
+    BronzeBatch,
     BronzeMachine,
     BronzeMaintenance,
     BronzeRelevesIncidents,
@@ -8,6 +9,7 @@ from models.bronze import (
 
 __all__ = [
     "Base",
+    "BronzeBatch",
     "BronzeMachine",
     "BronzeMaintenance",
     "BronzeRelevesIncidents",
