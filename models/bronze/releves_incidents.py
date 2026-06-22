@@ -28,3 +28,4 @@ class BronzeRelevesIncidents(Base):
     type_arret_urgence: Mapped[Optional[int]] = mapped_column(BigInteger)
     type_defaut_qualite: Mapped[Optional[int]] = mapped_column(BigInteger)
     valid_parsing: Mapped[bool] = mapped_column(Boolean, default=True)
+    valid_error_reason: Mapped[Optional[str]] = mapped_column(Text, nullable=True)

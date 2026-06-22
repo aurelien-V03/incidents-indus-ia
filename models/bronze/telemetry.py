@@ -19,3 +19,4 @@ class BronzeTelemetry(Base):
     rotation_mean_rpm: Mapped[Optional[float]] = mapped_column()
     pieces_produced: Mapped[Optional[int]] = mapped_column(BigInteger)
     valid_parsing: Mapped[bool] = mapped_column(Boolean, default=True)
+    valid_error_reason: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
