@@ -20,8 +20,10 @@ if config.config_file_name is not None:
 
 # add your model's MetaData object here
 # for 'autogenerate' support
-from models.bronze import Base
-target_metadata = Base.metadata
+from models.bronze import Base as BronzeBase
+from models.silver import Base as SilverBase
+
+target_metadata = [BronzeBase.metadata, SilverBase.metadata]
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
