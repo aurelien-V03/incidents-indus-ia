@@ -22,8 +22,9 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 from models.bronze import Base as BronzeBase
 from models.silver import Base as SilverBase
+from models.gold import Base as GoldBase
 
-target_metadata = [BronzeBase.metadata, SilverBase.metadata]
+target_metadata = [BronzeBase.metadata, SilverBase.metadata, GoldBase.metadata]
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
