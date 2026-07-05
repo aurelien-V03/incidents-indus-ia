@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(jupyter nbconvert *)",
+      "Bash(.venv/bin/alembic heads *)",
+      "Bash(alembic heads *)",
+      "Bash(.venv/bin/alembic revision *)",
+      "Bash(.venv/bin/python3 -c ' *)",
+      "Bash(.venv/bin/alembic current *)",
+      "Bash(.venv/bin/alembic downgrade *)",
+      "Bash(.venv/bin/alembic upgrade *)"
+    ]
+  }
+}

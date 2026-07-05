@@ -11,7 +11,8 @@ from models.silver.base import Base
 class SilverMaintenance(Base):
     __tablename__ = "silver_maintenance"
 
-    maintenance_id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    maintenance_id: Mapped[int] = mapped_column(Integer)
     machine_code: Mapped[Optional[str]] = mapped_column(String(16))
     maintenance_at: Mapped[Optional[datetime]] = mapped_column(TIMESTAMP)
     maintenance_type: Mapped[Optional[str]] = mapped_column(String(16))

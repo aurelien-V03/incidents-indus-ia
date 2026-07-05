@@ -10,7 +10,8 @@ from models.silver.base import Base
 class SilverMachine(Base):
     __tablename__ = "silver_machine"
 
-    machine_code: Mapped[str] = mapped_column(String(16), primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    machine_code: Mapped[str] = mapped_column(String(16))
     commissioning_date: Mapped[Optional[date]] = mapped_column(Date)
     max_daily_capacity: Mapped[Optional[int]] = mapped_column(Integer)
     max_hourly_capacity_pieces: Mapped[Optional[int]] = mapped_column(Integer)

@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Optional
 
-from sqlalchemy import BigInteger, Text, TIMESTAMP
+from sqlalchemy import BigInteger, Integer, Text, TIMESTAMP
 from sqlalchemy.orm import Mapped, mapped_column
 
 from models.silver.base import Base
@@ -10,7 +10,8 @@ from models.silver.base import Base
 class SilverRelevesIncidents(Base):
     __tablename__ = "silver_releves_incidents"
 
-    incident_id: Mapped[str] = mapped_column(Text, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    incident_id: Mapped[str] = mapped_column(Text)
     date: Mapped[Optional[datetime]] = mapped_column(TIMESTAMP)
     operator_name: Mapped[Optional[str]] = mapped_column(Text)
     machine_id: Mapped[Optional[str]] = mapped_column(Text)
