@@ -9,7 +9,9 @@
       "Bash(.venv/bin/python3 -c ' *)",
       "Bash(.venv/bin/alembic current *)",
       "Bash(.venv/bin/alembic downgrade *)",
-      "Bash(.venv/bin/alembic upgrade *)"
+      "Bash(.venv/bin/alembic upgrade *)",
+      "WebSearch",
+      "Bash(python3 -c \"import xgboost\")"
     ]
   }
 }

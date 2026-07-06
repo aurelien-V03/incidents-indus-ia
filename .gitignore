@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Data files
+artifacts/ingestions/gold/gold_splited_dataset.csv
