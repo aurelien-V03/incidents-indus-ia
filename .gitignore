@@ -16,3 +16,9 @@ artifacts/ingestions/gold/gold_splited_dataset.csv
 mlruns/
 mlartifacts/
 mlflow.db
+
+# Files
+
+artifacts/hazelnut/
+artifacts/hazelnut_normalised/
+artifacts/hazelnut_resized/

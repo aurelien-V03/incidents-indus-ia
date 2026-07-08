@@ -27,7 +27,20 @@
       "Bash(python3 -c \"import json;nb=json.load\\(open\\('/Users/avallet/formation-ia-project/training_model.ipynb'\\)\\);print\\(nb['cells'][-1]['id'],nb['cells'][-1]['cell_type']\\)\")",
       "Bash(python3 -c \"import json;nb=json.load\\(open\\('/Users/avallet/formation-ia-project/training_model.ipynb'\\)\\);print\\(len\\(nb['cells']\\)\\);print\\(''.join\\(nb['cells'][-1]['source']\\)[:120]\\)\")",
       "Bash(timeout 300 python3 -c ' *)",
-      "Bash(python3 -c \"import numpy, numba; print\\('numpy', numpy.__version__, 'numba', numba.__version__\\)\")"
+      "Bash(python3 -c \"import numpy, numba; print\\('numpy', numpy.__version__, 'numba', numba.__version__\\)\")",
+      "Bash(uv venv *)",
+      "Bash(.venv-dl/bin/python -c ' *)",
+      "Bash(sysctl -n machdep.cpu.brand_string)",
+      "Bash(sysctl -n sysctl.proc_translated)",
+      "Bash(sysctl -n hw.optional.arm64)",
+      "Bash(arch -arm64 /bin/bash -c 'curl -LsSf https://astral.sh/uv/install.sh | sh')",
+      "Bash(uv python *)",
+      "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.13-macos-x86_64-none/bin/**)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(cp .venv/lib/python3.13/site-packages/sklearn/.dylibs/libomp.dylib /Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/lib/)",
+      "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/lib/**)",
+      "Bash(.venv/bin/python -c \"import xgboost as xgb; print\\('xgboost', xgb.__version__, 'OK'\\)\")",
+      "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/bin/**)"
     ]
   }
 }
