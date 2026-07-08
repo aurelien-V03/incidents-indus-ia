@@ -11,7 +11,23 @@
       "Bash(.venv/bin/alembic downgrade *)",
       "Bash(.venv/bin/alembic upgrade *)",
       "WebSearch",
-      "Bash(python3 -c \"import xgboost\")"
+      "Bash(python3 -c \"import xgboost\")",
+      "Bash(git reset *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(python3 -c \"import mlflow; print\\(mlflow.__version__\\)\")",
+      "Bash(python3 -c \"import google.protobuf; print\\(google.protobuf.__version__\\)\")",
+      "Bash(uv pip *)",
+      "Bash(python3 -c \"import mlflow; print\\('mlflow OK', mlflow.__version__\\)\")",
+      "Bash(uv remove *)",
+      "Bash(python3 -c \"import sklearn, xgboost\")",
+      "Skill(dataviz)",
+      "Skill(dataviz:*)",
+      "Bash(python3 -c \"import shap; print\\(shap.__version__\\)\")",
+      "Bash(python3 -c \"import json;nb=json.load\\(open\\('/Users/avallet/formation-ia-project/training_model.ipynb'\\)\\);print\\(nb['cells'][-1]['id'],nb['cells'][-1]['cell_type']\\)\")",
+      "Bash(python3 -c \"import json;nb=json.load\\(open\\('/Users/avallet/formation-ia-project/training_model.ipynb'\\)\\);print\\(len\\(nb['cells']\\)\\);print\\(''.join\\(nb['cells'][-1]['source']\\)[:120]\\)\")",
+      "Bash(timeout 300 python3 -c ' *)",
+      "Bash(python3 -c \"import numpy, numba; print\\('numpy', numpy.__version__, 'numba', numba.__version__\\)\")"
     ]
   }
 }

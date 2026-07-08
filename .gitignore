@@ -11,3 +11,8 @@ wheels/
 
 # Data files
 artifacts/ingestions/gold/gold_splited_dataset.csv
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
