@@ -40,7 +40,8 @@
       "Bash(cp .venv/lib/python3.13/site-packages/sklearn/.dylibs/libomp.dylib /Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/lib/)",
       "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/lib/**)",
       "Bash(.venv/bin/python -c \"import xgboost as xgb; print\\('xgboost', xgb.__version__, 'OK'\\)\")",
-      "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/bin/**)"
+      "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/bin/**)",
+      "Bash(python -c \"import skimage; print\\('skimage', skimage.__version__\\)\")"
     ]
   }
 }
