@@ -22,3 +22,5 @@ mlflow.db
 artifacts/hazelnut/
 artifacts/hazelnut_normalised/
 artifacts/hazelnut_resized/
+artifacts/hazelnut_augmented/
+artifacts/hazelnut_resized_256/
