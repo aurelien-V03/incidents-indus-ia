@@ -42,7 +42,23 @@
       "Bash(.venv/bin/python -c \"import xgboost as xgb; print\\('xgboost', xgb.__version__, 'OK'\\)\")",
       "Read(//Users/avallet/.local/share/uv/python/cpython-3.13.14-macos-aarch64-none/bin/**)",
       "Bash(python -c \"import skimage; print\\('skimage', skimage.__version__\\)\")",
-      "Bash(python -c \"import optuna; print\\('optuna', optuna.__version__\\)\")"
+      "Bash(python -c \"import optuna; print\\('optuna', optuna.__version__\\)\")",
+      "Bash(python -c \"import plotly; print\\('plotly', plotly.__version__\\)\")",
+      "Bash(python -c \"import codecarbon; print\\('codecarbon', codecarbon.__version__\\)\")",
+      "Bash(python /private/tmp/claude-502/-Users-avallet-formation-ia-project/a78dddb9-d729-4c9f-a5c9-19a8052ff9f8/scratchpad/patch_cell.py)",
+      "Bash(python -c \"import json; json.load\\(open\\('training_model.ipynb'\\)\\); print\\('JSON valide'\\)\")",
+      "Bash(.venv/bin/python -c \"import huggingface_hub; print\\('huggingface_hub', huggingface_hub.__version__\\)\")",
+      "Bash(grep -oaE '\"\\(auroc|threshold|seuil|patchcore|PatchCore|AUROC\\)[^\"]{0,30}\"' nuts_deep_lurning.ipynb)",
+      "Bash(.venv/bin/python scripts/generate_model_card.py)",
+      "Bash(.venv/bin/python -c \"import huggingface_hub, os; p=os.path.join\\(os.path.dirname\\(huggingface_hub.__file__\\),'templates','modelcard_template.md'\\); print\\(p\\)\")",
+      "Bash(.venv/bin/python -c \"import huggingface_hub, os; p=os.path.join\\(os.path.dirname\\(huggingface_hub.__file__\\),'templates','modelcard_template.md'\\); print\\(open\\(p\\).read\\(\\)\\)\")",
+      "Bash(grep -nA6 \"### Training Data\" MODEL_CARD_maintenance.md)",
+      "Bash(grep -nA25 \"## More Information\" MODEL_CARD_maintenance.md)",
+      "Bash(grep -nA55 \"### Model Architecture and Objective\" MODEL_CARD_vision.md)",
+      "Bash(grep -nA20 '```mermaid' MODEL_CARD_maintenance.md)",
+      "Bash(grep -nA30 '### Pipeline de données' MODEL_CARD_maintenance.md)",
+      "Bash(.venv/bin/python scripts/generate_model_card_maintenance.py)",
+      "Bash(.venv/bin/python scripts/generate_model_card_vision.py)"
     ]
   }
 }

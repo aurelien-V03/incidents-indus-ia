@@ -1,0 +1,7 @@
+etape,duree_s,kwh,gco2eq,perf
+baseline_logreg,4.57,2e-06,0.0,0.5365
+xgb_optuna_search,107.15,0.001817,0.102,0.5399
+a_large_40_nopruning,169.52,0.003296,0.185,0.5399
+b_tight_15_pruning,25.49,0.000455,0.025,0.5385
+a_large_40_nopruning,167.18,0.003357,0.188,0.5399
+b_tight_15_pruning,26.42,0.000537,0.03,0.5385
